@@ -1,1 +1,1 @@
-Meu primeiro reositório Git.
+Meu primeiro repositório Git.
