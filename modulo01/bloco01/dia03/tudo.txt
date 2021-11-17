@@ -1,0 +1,17 @@
+amarelo
+vermelho
+azul
+violeta
+verde
+rosa
+azul
+cinza
+marrom
+dourado
+prata
+morango
+laranja
+melancia
+banana
+maçã
+pêra
