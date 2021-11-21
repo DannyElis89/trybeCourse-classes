@@ -1,0 +1,1 @@
+cat -recebe valores como inputs

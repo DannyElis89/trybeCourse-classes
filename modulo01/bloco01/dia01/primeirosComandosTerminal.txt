@@ -1,0 +1,26 @@
+Unix & Bash - Parte 1
+Comandos:
+cat > <nome do arquivo> escrever/sobrescrever conteúdo no arquivo
+cat >> <nome do arquivo> adicionar conteúdo ao arquivo sem sobrescrever no conteúdo anterior
+cd . 
+cd ..
+ls
+ls -a
+clear
+cp <nome do arquivo a ser copiado> <nome do arquivo destino, que ficará dentro do mesmo diretório>
+mv <nome do arquivo a ser movido> </"endereço do diretório destino">
+rm <nome do arquivo a ser removido>
+rmdir <nome do diretório VAZIO a ser excluído>
+rm -rf <nome do diretório a ser deletado>  Apaga diretório, subdiretórios e arquivos dentro da pasta
+less <nome do arquivo a ser aberto> mos
+head <nome do arquivo> dez primeiras linhas do arquivo
+head -5 <nome do arquivo>  exibe as 5 primeiras linhas do arquivo
+tail <nome do arquivo> lista as 10 ultimas linhas/valores do arquivo
+tail -6 <nome do arquivo> lista os 6 ultimos valores do arquivo
+less [enter] /"palavra ou valor a ser buscado dentro do arquivo"
+grep "termo ou valor a ser buscado no arquivo" <nome do arquivo>
+grep -i <termo ou valor buscado sem case sensitive>
+grep 'frase a ser buscada entre aspas simples'
+ls *  Mostra todos os arquivos e subdiretórios dentro da pasta atual
+ls ?  ?substitui caracteres que eu não lembro
+

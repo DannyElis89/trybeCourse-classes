@@ -1,0 +1,11 @@
+Conceitos:
+Ramificação (Branching);
+Mesclagem (Merge);
+Resolução de conflitos.
+
+
+Branch: versão independente e editável do cógico;
+Branch master: versão principal do código, que será clocada no ar;
+Commit: alteração adicionada a branch principal (master) ou secundária de um código;
+Branch feature: branch independente da branch master; também pode receber commits.
+Merge: união de duas branchs paralelas (branch master e feature) com seus respectivos commits. Na realização do merge, é possível que existam conflitos de código, que poderão ser resolvidos no processo. Após a mesclagem de duas ramificações, a feature desaparece pois foi encorporada na branch master.
