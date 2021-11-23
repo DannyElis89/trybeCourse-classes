@@ -1,0 +1,29 @@
+p{
+    color:blueviolet
+}
+li {
+    color: brown;
+    font-weight: bold;
+}
+h1{
+    background-color: rgb(192, 151, 229);
+}
+h3 {
+    color: crimson;
+    font-size: 2em;
+}
+#profissao{
+    background-color: rgb(247, 185, 197);
+}
+#origem{
+    background-color: rgb(245, 173, 173);
+}
+body{
+    background-color: rgb(255, 400, 200); 
+    font-size: 20px;          
+}
+.estilolista{
+    background-color: rgb(237, 171, 250);
+    line-height: 40px;
+    text-align: left;
+}
