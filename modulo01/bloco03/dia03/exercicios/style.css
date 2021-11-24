@@ -1,0 +1,76 @@
+body{
+    background-color: #ffced7;
+    font-size: 18px;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #590d22;
+    font-size: 2.5em;
+    text-align: center;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #800F2F;
+    font-size: 1.5em;
+}
+p{
+    font-family: 'Lobster Two', cursive;
+    color:a4133c;
+    line-height: 40px;
+    background-color: #ff758f;
+    font-size: 0.9em;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.subdestaque{
+    color:a4133c;
+    line-height: 20px;
+    background-color: #FF8FA3;
+    font-size: 0.8em;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+.descrição{
+    width: 360px;
+    display: inline-block;
+    top: 80px;
+
+}
+.habilidades{
+    width: 300px;
+    display: inline-block;
+}
+.bloco01{
+    display: inline-block;
+    top: 80px;
+}
+.fotoPerfil{
+    display: inline-block;
+    top: 80px;
+}
+#fotodeperfil{
+    border-radius:25%;
+    border-color: #ff8fa3;
+    border-style: inset;
+    border-width: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+.contato{
+    font-size: 0.7em;
+    background-color: #FF8FA3;
+}
+#enfase1{
+    font-size: 1.2em;
+}
+#enfase2{
+    font-size: 1.3em;
+}
+#enfase3{
+    font-size: 1.4em;
+}
