@@ -12,12 +12,12 @@ h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #800F2F;
     font-size: 1.5em;
+    text-align: center;
 }
 p{
     font-family: 'Lobster Two', cursive;
     color:a4133c;
     line-height: 40px;
-    background-color: #ff758f;
     font-size: 0.9em;
     border-radius: 10px;
     padding-left: 15px;
@@ -34,23 +34,33 @@ p{
     padding-bottom: 10px;    
 }
 .descrição{
-    width: 360px;
+    width: 450px;
     display: inline-block;
     top: 80px;
-
-}
-.habilidades{
-    width: 300px;
-    display: inline-block;
-}
-.bloco01{
-    display: inline-block;
-    top: 80px;
+    margin: auto;    
 }
 .fotoPerfil{
     display: inline-block;
-    top: 80px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;    
 }
+.habilidades{
+    width: 300px;
+    display: block;    
+}
+.bloco1{
+    display: inline-block;
+    top: 80px;
+    padding: 20px;
+    background-color: #ff758f; 
+    border-radius: 5px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+      
+}
+
 #fotodeperfil{
     border-radius:25%;
     border-color: #ff8fa3;
@@ -64,6 +74,7 @@ p{
 .contato{
     font-size: 0.7em;
     background-color: #FF8FA3;
+    text-align: center;
 }
 #enfase1{
     font-size: 1.2em;
