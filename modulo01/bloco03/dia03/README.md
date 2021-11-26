@@ -1,5 +1,6 @@
 # Dia 03: HTML & CSS - Seletores e posicionamento
 ### Principais pontos abordados:
-* Como funciona o Box Model do CSS e como os elementos da página se relacionam visualmente;
-* Posicionar elementos na página de diferentes formas;
-* Combinar e agrupar seletores de CSS para criar regras bem definidas.
+* Box Model - Modelo de caixas no CSS;
+* Posicionamento de elementos;
+* Agrupamento de Seletores e Pseudoseletores;
+* Combinações e Classes descendentes.

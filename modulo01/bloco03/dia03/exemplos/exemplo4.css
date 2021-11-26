@@ -1,0 +1,41 @@
+div:hover{
+    border: 4px;
+    border-style: dashed;
+    border-color: rgb(0, 0, 0);
+    background-color: crimson;
+    color: aliceblue;
+}
+div:nth-child(3){
+    background-color: yellow;
+}
+div:nth-child(4){
+    background-color: green;
+}
+div:nth-child(5){
+    background-color: yellowgreen;
+    height:  60px;
+}
+div:nth-child(6){
+    background-color: rgb(59, 54, 54);
+}
+div:nth-child(7){
+    background-color: aquamarine;
+}
+body > div:nth-child(3) > h3{
+    color: blueviolet;
+    font-style: italic;
+}
+body > div:nth-child(4) > h3{
+    color: whitesmoke;
+}
+body > div:nth-child(5) > h3{
+    color: purple;
+    font-style: italic;
+}
+body > div:nth-child(6) > h3{
+    color: yellowgreen;
+}
+body > div:nth-child(7) > h3{
+    color: red;
+    font-style: italic;
+}
