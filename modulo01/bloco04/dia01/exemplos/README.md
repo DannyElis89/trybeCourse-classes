@@ -1,6 +1,6 @@
 # JavaScript - Primeiros passos- Para fixar:
 
-### Exemplo 01:
+### Variáveis e Constantes - Exemplo 01:
 
 1. Crie uma constante chamada myName e atribua a ela o seu nome (Exemplo: Carolina).
 2. Crie uma constante chamada birthCity e atribua a ela a sua cidade natal.
@@ -9,7 +9,7 @@
 5. Altere o valor atribuído à variável birthYear para 2030. Faça um console.log(birthYear) novamente para ver o que acontece!
 6. Altere o valor atribuído à constante birthCity . Faça um console.log(birthCity) novamente! Você saberia explicar por que recebemos uma mensagem de erro?
 
-### Exemplo 02:
+### Tipos primitivos, tipagem dinâmica e operações aritméticas - Exemplo 02:
 
 Vamos fazer algumas operações simples para encontrarmos a área e o perímetro de um retângulo de base 5 e altura 8.
 
@@ -17,7 +17,7 @@ Vamos fazer algumas operações simples para encontrarmos a área e o perímetro
 2. Crie uma constante chamada area e atribua a ela o resultado da multiplicação da base pela altura. Dica: lembre-se de usar sempre o console.log() para imprimir as variáveis e checar os resultados das operações!
 3. Crie uma constante chamada perimeter e atribua a ela a soma de todos os lados do retângulo.
 
-### Exemplo 03:
+### Condições If e Else - Exemplo 03:
 
 Criar estruturas condicionais com operadores if/else e operadores lógicos será algo muito comum na sua carreira de pessoa desenvolvedora. Então vamos praticar o que aprendemos no vídeo?
 
@@ -44,3 +44,16 @@ Criar estruturas condicionais com operadores if/else e operadores lógicos será
 - Se o horário estiver entre 4 e 11, insira "Hmmm, cheiro de café recém passado" na variável "message".
 
 4. Agora imprima a variável message fora das suas condições.
+
+### Operadores lógicos - Operador OR - Exemplo 05:
+
+1. Crie uma variável chamada "weekDay" que recebe a string "quarta-feira".
+2. Implemente condicionais para que:
+
+- Se nossa variável "weekDay" for "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira" ou "sexta-feira", imprima "Oba, mais um dia de aprendizado na Trybe >:D".
+- Se for algum dia de fim de semana, imprima "FINALMENTE, descanso merecido UwU".
+
+### Switch e Case - Exemplo 06:
+
+1. Crie uma variável para armazenar o estado da pessoa candidata no processo seletivo, que pode ser: 'aprovada' , 'lista' ou 'reprovada' ;
+2. Crie uma estrutura condicional com o switch/case que irá imprimir as mensagens do exercício anterior se o estado da pessoa candidata for 'aprovada' , 'lista' ou 'reprovada' . Como default , imprima a mensagem de 'não se aplica' .
