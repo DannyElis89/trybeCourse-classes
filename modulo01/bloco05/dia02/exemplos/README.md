@@ -63,3 +63,5 @@ console.log(document.getElementById('start').nextElementSibling) // <p>elemento<
 6. Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta .
 7. Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta .
 8. Agora acesse o terceiroFilho a partir de pai .
+
+
