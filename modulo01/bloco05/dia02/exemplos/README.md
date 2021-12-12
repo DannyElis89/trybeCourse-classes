@@ -22,7 +22,7 @@
 ----------
 ### Parte I:
 #### Exemplo 01:
-arquivos exemplo01.html e exemplo01.js
+arquivos exemplo01.html , exemplo01.js e exemplo01.css
 1. Acesse o elemento elementoOndeVoceEsta .
 2. Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
 3. Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
@@ -36,8 +36,16 @@ arquivos exemplo01.html e exemplo01.js
 ----------
 ### Parte II - Criando elementos:
 #### Exemplo 02:
-arquivos exemplo02.html e exemplo02.js
+arquivos exemplo02.html , exemplo02.js e exemplo02.css
 1. Crie um irmão para elementoOndeVoceEsta .
 2. Crie um filho para elementoOndeVoceEsta .
 3. Crie um filho para primeiroFilhoDoFilho .
 4. A partir desse filho criado, acesse terceiroFilho .
+
+
+----------
+### Parte III: Removendo elementos
+#### Exemplo 03:
+arquivos exemplo03.html , exemplo03.js e exemplo03.css
+1. Remova todos os elementos filhos de paiDoPai exceto pai , elementoOndeVoceEsta e primeiroFilhoDoFilho .
+
