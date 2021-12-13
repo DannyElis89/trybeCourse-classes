@@ -18,43 +18,11 @@
 * previousSibling : retorna o nó anterior.
 * previousElementSibling : retorna o elemento anterior.
 
-~~~html
-<!-- arquivo index.html -->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <main>
-    <div id="start"></div>
-    nó
-    <p>elemento</p>
-  </main>
-  <script src="script.js"></script>
-</body>
-</html>
-
-~~~
-
-    Como você pode ver, o arquivo possui uma section contendo dois elementos filhos: uma <div> e um <p> . Então, você vai aplicar as propriedades nextSibling e nextElementSibling para ver a diferença entre elas:
-
-~~~javascript
-// arquivo script.js
-
-console.log(document.getElementById('start').nextSibling) // nó
-
-console.log(document.getElementById('start').nextElementSibling) // <p>elemento</p>
-~~~
-
 
 ----------
 ### Parte I:
 #### Exemplo 01:
+arquivos exemplo01.html , exemplo01.js e exemplo01.css
 1. Acesse o elemento elementoOndeVoceEsta .
 2. Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
 3. Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
@@ -63,3 +31,21 @@ console.log(document.getElementById('start').nextElementSibling) // <p>elemento<
 6. Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta .
 7. Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta .
 8. Agora acesse o terceiroFilho a partir de pai .
+
+
+----------
+### Parte II - Criando elementos:
+#### Exemplo 02:
+arquivos exemplo02.html , exemplo02.js e exemplo02.css
+1. Crie um irmão para elementoOndeVoceEsta .
+2. Crie um filho para elementoOndeVoceEsta .
+3. Crie um filho para primeiroFilhoDoFilho .
+4. A partir desse filho criado, acesse terceiroFilho .
+
+
+----------
+### Parte III: Removendo elementos
+#### Exemplo 03:
+arquivos exemplo03.html , exemplo03.js e exemplo03.css
+1. Remova todos os elementos filhos de paiDoPai exceto pai , elementoOndeVoceEsta e primeiroFilhoDoFilho .
+

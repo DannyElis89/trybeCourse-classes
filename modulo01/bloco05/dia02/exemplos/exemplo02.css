@@ -1,0 +1,62 @@
+#paiDoPai {
+  margin-right: 0%;
+  border: 2px solid black;
+  background-color: black;
+  color:aliceblue;
+}
+
+#pai {
+  margin: 10px;
+  border: 2px solid red;
+  background-color: red;
+  color:aliceblue;
+}
+
+#primeiroFilho{
+  margin: 10px;
+  border: 2px solid green;
+  background-color: green;
+  color:aliceblue;
+}
+
+#elementoOndeVoceEsta{
+  margin: 10px;
+  border: 2px solid orangered;
+  background-color: orangered;
+  color:aliceblue;
+}
+
+#primeiroFilhoDoFilho{
+  margin: 10px;
+  border: 2px solid purple;
+  background-color: purple;
+  color:aliceblue;
+}
+
+#segundoEUltimoFilhoDoFilho{
+  margin: 10px;
+  border: 2px solid pink;
+  background-color: pink;
+  color:black;
+}
+
+#elementoOndeVoceEsta p {
+  margin: 10px;
+  border: 2px solid rgb(241, 4, 43);
+  background-color: rgb(241, 4, 43);
+  color:black;
+}
+
+#terceiroFilho {
+  margin: 10px;
+  border: 2px solid blue;
+  background-color: blue;
+  color:aliceblue;
+}
+
+#quartoEUltimoFilho {
+  margin: 10px;
+  border: 2px solid blueviolet;
+  background-color: blueviolet;
+  color:aliceblue;
+}
