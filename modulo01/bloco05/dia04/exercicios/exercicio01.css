@@ -4,7 +4,7 @@ header {
   margin-right: auto;
   width: 100%;
   min-width:  300px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
@@ -37,7 +37,7 @@ span {
   min-width: 300px;
   margin: 15px auto;
   padding: 5px;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 
 }
 
@@ -55,7 +55,7 @@ button {
   margin: auto;
   vertical-align: top;
   padding: 10px;
-  border: 1px solid rgb(243, 14, 52);
+  /* border: 1px solid rgb(243, 14, 52); */
 }
 
 
@@ -64,7 +64,7 @@ article {
   margin: auto;
   width: 100%;
   min-width:  320px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .todasAsSections {
@@ -73,7 +73,7 @@ article {
   vertical-align: top;
   width: 45%;
   min-width:  300px;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 h2 {
@@ -97,7 +97,7 @@ footer {
   text-align: center;
   margin: 15px auto;
   min-width:  320px;
-  border: 1px solid rgb(243, 14, 52);
+  /* border: 1px solid rgb(243, 14, 52); */
   padding: 5px;
 }
 
