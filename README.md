@@ -41,10 +41,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 5-2: _JavaScript - Trabalhando com elementos_
 - [X] 5-3: _JavaScript - Eventos_
 - [X] 5-4: _JavaScript - Web Storage_
-- [X] 5-5: _[Projeto - Meme Generator]()_
-- [X] 5-6: _[Projeto - Arte com Pixels]()_
-- [X] 5-7: _[Projeto - Lista de tarefas]()_
-- [X] 5-7: _[Projeto - Adivinhe a Cor]()_
+- [X] 5-5: _[Projeto - Meme Generator](./modulo01/bloco05/sd-019-c-project-meme-generator)_
+- [X] 5-6: _[Projeto - Arte com Pixels](./modulo01/bloco05/sd-019-c-project-pixels-art)_
+- [X] 5-7: _[Projeto - Lista de tarefas](./modulo01/bloco05/sd-019-c-project-todo-list)_
+- [X] 5-7: _[Projeto - Adivinhe a Cor](./modulo01/bloco05/sd-019-c-project-color-guess)_
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_
 
 ##### Bloco 6: HTML & CSS avançado
