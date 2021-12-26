@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Meme Generator!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="cabecalho">
+    <h1>Meme generator</h1>
+    <p class="descricao">Insira o texto aqui:</p>
+    <input type="text" id="text-input" maxlength="60">
+    <input type="file" id="meme-insert" accept="image/*" onchange="uploadImagem()">
+    <p id="paragrafoDeBotoes">Escolha a moldura:
+      <button type="radio" class="botaoMoldura" id="fire">fire
+      <button type="radio" class="botaoMoldura" id="water">water
+      <button type="radio" class="botaoMoldura" id="earth">earth
+    </p>
+  </section>
+  <section id="sectionMae">
+    <section id="previasDeImagens1">
+      <img id="meme-1" class="imagesSugestao" src="/sd-019-c-project-meme-generator/imgs/meme1.png">
+      <img id="meme-2" class="imagesSugestao" src="/sd-019-c-project-meme-generator/imgs/meme2.png">
+      <img id="meme-3" class="imagesSugestao" src="/sd-019-c-project-meme-generator/imgs/meme3.png">
+      <img id="meme-4" class="imagesSugestao" src="/sd-019-c-project-meme-generator/imgs/meme4.png">
+      <img id="meme-5" class="imagesSugestao" src="/sd-019-c-project-meme-generator/imgs/gif-friends05.gif">
+      <img id="meme-6" class="imagesSugestao" src="/sd-019-c-project-meme-generator/imgs/gif-friends06.gif">
+      <img id="meme-7" class="imagesSugestao" src="/sd-019-c-project-meme-generator/imgs/gif-friends07.gif">
+
+    </section>
+    <section id="meme-image-container">
+      <img src=""  id="meme-image">
+      <p id="meme-text"></p>
+      </img>
+    </section>
+    <section id="previasDeImagens2">
+      <img id="meme-1-1" class="imagesSugestao" src="/sd-019-c-project-meme-generator/imgs/gif-friends09.gif">
+      <img id="meme-2-2" class="imagesSugestao" src="/sd-019-c-project-meme-generator/imgs/gif-friends10.gif">
+      <img id="meme-3-3" class="imagesSugestao" src="/sd-019-c-project-meme-generator/imgs/gif-friends11.gif">
+      <img id="meme-5-5" class="imagesSugestao" src="/sd-019-c-project-meme-generator/imgs/gif-friends13.gif">
+      <img id="meme-6-6" class="imagesSugestao" src="/sd-019-c-project-meme-generator/imgs/gif-friends14.gif">
+      <img id="meme-7-7" class="imagesSugestao" src="/sd-019-c-project-meme-generator/imgs/gif-friends15.gif">
+      <img id="meme-8-8" class="imagesSugestao" src="/sd-019-c-project-meme-generator/imgs/gif-friends16.gif">
+    </section>
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

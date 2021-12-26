@@ -1,0 +1,42 @@
+#title {
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+}
+
+#rgb-color {
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+  border: 1px solid green;
+}
+
+#sectionDivsColors {
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+  border: 1px solid red;
+}
+
+.ball {
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  margin: auto 20px;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+#reset-game {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  border: 1px solid rgb(218, 9, 44);
+  width: auto;
+}

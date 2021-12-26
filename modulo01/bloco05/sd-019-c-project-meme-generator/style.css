@@ -1,0 +1,160 @@
+body {
+  text-align: center;
+  width: 95%;
+  background-image: url('https://img.elo7.com.br/product/zoom/1BB17FF/papel-de-parede-adesivo-friends-roxo-d.jpg');
+  background-position: right center;
+  background-size: contain;
+  background-color: black;
+}
+
+h1 {
+  display: inline-block;
+  width: 93%;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  text-shadow: 10px 10px 10px black;
+  padding: 5px;
+}
+
+#text-input {
+  display: inline-block;
+  margin: 5px auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5px;
+}
+
+#cabecalho {
+  display: block;
+  height: 260px;
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.descricao {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+  text-shadow: 5px 5px 5px black;
+}
+
+#paragrafoDeBotoes {
+  display: flex;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5px;
+  color: whitesmoke;
+  font-size: 20px;
+  text-shadow: 5px 5px 5px black;
+  height: 25px;
+}
+
+.botaoMoldura {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 25px;
+  font-size: 15px;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+#sectionMae {
+  display: flex;
+  position: relative;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#meme-image-container {
+  display: flex;
+  position: relative;
+  align-content: flex-end;
+  align-items: flex-end;
+  z-index: 0;
+  margin-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid black;
+  background-color: white;
+  min-height: 400px;
+  min-width: 400px;
+  max-height: 400px;
+  max-width: 400px;
+}
+
+#meme-image {
+  position: absolute;
+  z-index: 4;
+  height: 400px;
+  width: 400px;
+}
+
+#meme-text {
+  position: absolute;
+  z-index: 5;
+  top: 70%;
+  text-align: center;
+  width: 400px;
+  max-width: 400px;
+  color: white;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
+}
+
+#previasDeImagens1 {
+  display: flex;
+  position: absolute;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: flex-end;
+  align-items: flex-end;
+  left: 0.1px;
+  z-index: 0;
+  margin-top: 5px;
+  margin-left: auto;
+  min-height: 110px;
+  min-width: 60px;
+  max-width: 60px;
+}
+
+#previasDeImagens2 {
+  display: flex;
+  position: absolute;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: flex-end;
+  align-items: flex-end;
+  right: 0.1px;
+  z-index: 0;
+  margin-top: 5px;
+  margin-right: auto;
+  min-height: 110px;
+  min-width: 60px;
+  max-width: 60px;
+}
+
+.imagesSugestao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50px;
+  min-width: 50px;
+  max-height: 50px;
+  max-width: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

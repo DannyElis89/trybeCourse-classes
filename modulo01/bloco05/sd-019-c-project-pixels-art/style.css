@@ -1,0 +1,45 @@
+#title {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+#color-palette {
+  display: block;
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+
+
+.color {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+#pixel-board {
+  display: block;
+  text-align: center;
+  line-height: 0%;
+  margin: auto;
+  border: 1px solid black;
+  padding: auto;
+}
+
+.pixel {
+  display: inline-block;
+  border: 1px solid black;
+  vertical-align: middle;
+  background-color: white;
+}
+
+#tamanho-quadro {
+  display: inline-block;
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}

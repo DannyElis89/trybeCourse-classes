@@ -1,0 +1,12 @@
+.completed {
+  text-decoration: line-through solid black;
+}
+
+#texto-tarefa {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.selected {
+  background-color: rgb(128, 128, 128);
+}
