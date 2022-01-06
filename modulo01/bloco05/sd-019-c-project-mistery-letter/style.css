@@ -1,0 +1,92 @@
+body {
+  background: linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #e7a516 100%);
+}
+
+header {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: 10px 10px 10px black;
+  font-family: Oooh Baby, cursive;
+}
+
+article {
+  width: 80%;
+  margin: 10px auto;
+  padding: 5px;
+  border-radius: 25px;
+  background-image: url('https://cdn.shopify.com/s/files/1/0305/4075/9177/products/N013158_2.jpg?v=1612961740');
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+#criar-carta {
+  border-radius: 25px;
+  background: radial-gradient(circle, rgba(245, 20, 61, 1) 0%, rgba(98, 7, 143, 1) 71%);
+  color: whitesmoke;
+}
+
+#carta-gerada {
+  width: 95%;
+  max-width: 700px;
+  margin: 100px auto;
+  padding: 5px;
+  line-height: 60px;
+}
+
+span {
+  display: inline-block;
+}
+
+.newspaper {
+  background-color: antiquewhite;
+  font-family: Times New Roman, Times, serif;
+  font-weight: 700;
+}
+
+.magazine1 {
+  background-color: teal;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.magazine2 {
+  background-image: url('images/pink-pattern.png');
+  color: fuchsia;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+}
+
+.medium {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.big {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.reallybig {
+  font-size: 40px;
+  padding: 15px;
+}
+
+.rotateleft {
+  transform: rotate(-5deg);
+}
+
+.rotateright {
+  transform: rotate(5deg);
+}
+
+.skewleft {
+  transform: skewX(10deg);
+}
+
+.skewright {
+  transform: skewX(-10deg);
+}

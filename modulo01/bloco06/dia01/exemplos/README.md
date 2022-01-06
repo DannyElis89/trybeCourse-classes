@@ -23,7 +23,7 @@ Vamos praticar um pouco, criando uma tela de login? 🔥
 * Crie um arquivo HTML index.html
 * Crie um arquivo Javascript script.js
 * Em seu arquivo HTML:
-  * Adicione o <script src="script.js"></script> no final do body do HTML
+  * Adicione o < script src="script.js" > < /script> no final do body do HTML
   * Copie os três elementos acima ( a , input type="text" , checkbox ) em sua página
 
 * Em seu arquivo Javascript:

@@ -9,23 +9,23 @@
 </head>
 <body>
   <header> <h1>Login</h1></header>
-  <form>
-    <label for="user">Digite seu usuário:
-      <input type="text" name="user" id="input-user"  value="" required placeholder="Digite seu email" autofocus>
+  <form action="" method="get">
+    <label for="input-user">Digite seu e-mail:
+      <input type="email" name="user" id="input-user"  value="" required placeholder="Digite seu e-mail" autofocus>
     </label>
     <br>
     <br>
-    <label for="senha">Digite sua senha:
+    <label for="input-senha">Digite sua senha:
       <input type="password" name="senha" id="input-senha" required placeholder="Digite sua senha" autocomplete="off">
     </label>
     <br>
     <br>
-    <label for="remember">Lembrar-me neste computador?
+    <label for="remember-password">Lembrar-me neste computador?
       <input type="checkbox" name="remember" id="remember-password">
     </label>
     <br>
     <br>
-    <label for="enviar">
+    <label for="submit">
       <input type="submit" name="enviar" id="submit">
     </label>
   </form>
