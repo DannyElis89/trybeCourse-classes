@@ -11,13 +11,10 @@ HREF_LINK.addEventListener('click', functionPreventDefault);
 
 INPUT_CHECKBOX.addEventListener('click', functionPreventDefault);
 
-function prevDefaultKey(parametroTecla) {
-  // if (parametroTecla.key == 'A') {
-  //   console.log('Letra A');
-  // } else {
-  //   console.log('Outra letra');
-  // }
-  console.log(parametroTecla.target);
-}
-
-INPUT_CHECKBOX.addEventListener('keyup', prevDefaultKey);
+INPUT_TEXT.addEventListener('keypress', (event) => {
+  const teclaPressionada = event.key;
+  console.log(teclaPressionada);
+  if (teclaPressionada !== 'a') {
+    event.preventDefault();
+  }
+});
