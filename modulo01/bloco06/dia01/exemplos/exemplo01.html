@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & CSS - Forms: Parte II - input tag, types e attributes</title>
+  <link rel="stylesheet" href="exemplo01.css">
+</head>
+<body>
+  <header> <h1>Login</h1></header>
+  <form action="" method="get">
+    <label for="input-user">Digite seu e-mail:
+      <input type="email" name="user" id="input-user"  value="" required placeholder="Digite seu e-mail" autofocus>
+    </label>
+    <br>
+    <br>
+    <label for="input-senha">Digite sua senha:
+      <input type="password" name="senha" id="input-senha" required placeholder="Digite sua senha" autocomplete="off">
+    </label>
+    <br>
+    <br>
+    <label for="remember-password">Lembrar-me neste computador?
+      <input type="checkbox" name="remember" id="remember-password">
+    </label>
+    <br>
+    <br>
+    <label for="submit">
+      <input type="submit" name="enviar" id="submit">
+    </label>
+  </form>
+
+</body>
+</html>
