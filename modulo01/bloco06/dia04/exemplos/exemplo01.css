@@ -1,0 +1,66 @@
+.container {
+  border: 1px solid black;
+  display: flex;
+  height: 300px;
+  margin: auto;
+  width: 500px;
+}
+
+.keep {
+  align-self: center;
+  background-color: #FAA488;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  list-style: none;
+}
+
+.change1 {
+  /* Altere a propriedade align-self. */
+  align-self: flex-start;
+  background-color: #FBD26A;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  list-style: none;
+}
+
+.change2 {
+  /* Altere a propriedade align-self. */
+  align-self: flex-end;
+  background-color: #FBD26A;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  list-style: none;
+}
+
+.change3 {
+  /* Altere a propriedade align-self. */
+  align-self: stretch;
+  background-color: #FBD26A;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  list-style: none;
+}
+
+.change4 {
+  /* Altere a propriedade align-self. */
+  align-self: baseline;
+  background-color: #FBD26A;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  list-style: none;
+}
+
+.change5 {
+  /* Altere a propriedade align-self. */
+  align-self: center;
+  background-color: #FBD26A;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  list-style: none;
+}
