@@ -23,7 +23,7 @@
   background-color: #FAA488;
   display: flex;
   /* Altere a propriedade grow. */
-  flex-grow: 1;
+  flex-grow: 3;
   list-style: none;
 }
 
@@ -39,6 +39,6 @@
   background-color: #006472;
   display: flex;
   /* Altere a propriedade grow. */
-  flex-grow: 1;
+  flex-grow: 2;
   list-style: none;
 }

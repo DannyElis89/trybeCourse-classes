@@ -19,9 +19,27 @@ Copie o código abaixo e teste as possibilidades de ordenação.
 
 _________
 
-## Propriedade: Propriedades: flex-grow, flex-shrink, flex-basis
+## Propriedade: Propriedades: flex-grow
 ### Para fixar:
 
  Teste as possibilidades para a propriedade flex-grow .
 
       * arquivos exemplo03.html e exemplo03.css
+
+_________
+
+## Propriedade: Propriedades: flex-shrink
+### Para fixar:
+
+ Teste as possibilidades para a propriedade flex-grow .
+
+      * arquivos exemplo04.html e exemplo04.css
+
+_________
+
+## Propriedade: Propriedades: flex-basis
+### Para fixar:
+
+ Teste as possibilidades para a propriedade flex-grow .
+
+      * arquivos exemplo05.html e exemplo05.css
