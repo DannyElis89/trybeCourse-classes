@@ -1,0 +1,135 @@
+/*
+ * @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * apply a natural box layout model to all elements, but allowing components to change
+ */
+ html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+@media only screen and (max-width: 590px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    font-size: 20px;
+    background-color: rgba(137, 43, 226, 0.329);
+  }
+
+  article {
+    width: 90%;
+    border: 2px solid orangered;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  img {
+      max-width: 90%;
+      margin: auto;
+  }
+
+  main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    border: 2px solid green;
+  }
+
+  section {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid red;
+  }
+
+  figure {
+      margin: auto;
+      margin-top: 20px;
+  }
+
+  figcaption {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 591px) and (max-width: 1400px) {
+  body {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    font-size: 20px;
+    background-color: rgba(231, 13, 49, 0.527);
+  }
+
+  article {
+    width: 95%;
+    line-height: 30px;
+    padding: 15px;
+    border: 2px solid orangered;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  img {
+      max-width: 95%;
+      margin: auto;
+  }
+
+  main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    margin-top: 15px;
+    border: 2px solid green;
+    width: 95%;
+  }
+
+  section {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid red;
+  }
+
+  figure {
+      margin: auto;
+      margin-top: 10px;
+      width: 300px;
+  }
+
+  figcaption {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+}

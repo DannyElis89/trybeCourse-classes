@@ -1,0 +1,296 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+@media only screen and (max-width: 592px) {
+  .container {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 2px solid green;
+  }
+
+  header {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-around;
+    border: 2px solid blue;
+  }
+
+  header p {
+    font-family: Dancing Script, cursive;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+  }
+
+  header ul {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+
+  header li {
+    font-size: 20px;
+    list-style: circle;
+    line-height: 35px;
+  }
+
+  h2 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .aside-one {
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid purple;
+  }
+
+  .aside-one li {
+    font-size: 15px;
+    list-style: none;
+    line-height: 30px;
+
+  }
+
+  .aside-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid yellow;
+  }
+
+  .aside-two li {
+    font-size: 10px;
+    list-style: none;
+    line-height: 20px;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px solid gray;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .main-content h1 {
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+    width: 100vw;
+    padding: 5px;
+    font-size: 10px;
+    text-align: justify;
+    border: 2px solid yellow;
+  }
+
+}
+
+@media only screen and (min-width: 593px) and (max-width: 1000px)  {
+  .container {
+    display: flex;
+    flex-flow: column nowrap;
+    position: absolute;
+  }
+
+  header {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 40vh;
+    width: 100vw;
+    /* border: 2px solid blue; */
+    justify-content: start;
+    color: antiquewhite;
+    text-shadow: 5px 5px 10px rgba(245, 245, 245, 0.651) ;
+    background-image: url('https://images.alphacoders.com/195/thumb-1920-195651.jpg');
+    background-position: center center;
+    background-size: 100vw;
+  }
+
+  header p {
+    font-family: Dancing Script, cursive;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    /* border: 2px solid green; */
+  }
+
+  header ul {
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    bottom: 25px;
+    justify-content: space-around;
+    list-style: none;
+    /* border: 2px solid red; */
+  }
+
+  .aside-one {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    height: 80vh;
+    width: 95vw;
+    font-family: Moon Dance, serif;
+    color: rgb(27, 27, 27);
+    text-shadow: 5px 5px 10px rgba(245, 245, 245, 0.651) ;
+    background-image: url('https://i.pinimg.com/originals/4b/62/4a/4b624adfb8f5d866862b47fbda08fc3b.jpg');
+    background-position: center center;
+    background-size: 100vw;
+    /* border: 2px solid rgb(243, 7, 243); */
+  }
+
+  .aside-one h2 {
+    font-family: Shizuru, cursive;
+    height: 10vw;
+    width: 100vw;
+    /* padding-top: 1vw; */
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    background-color: rgba(240, 248, 255, 0.411);
+    /* border: 2px solid red; */
+  }
+
+  .aside-one ul {
+    display: flex;
+    flex-flow: column wrap;
+    height: 50vh;
+    background-color: rgba(240, 248, 255, 0.411);
+    /* border: 2px solid red; */
+  }
+
+  .aside-one ul li {
+    font-size: 20px;
+    font-weight: 600;
+    list-style: none;
+    line-height: 30px;
+  }
+
+  .aside-two {
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: Indie Flower, cursive;
+    background-image: url('/modulo01/bloco06/dia05/exercicios/kisspng-white-rabbit-alice-s-adventures-in-wonderland-pock-rabbit-5ab4128cb2aaf8.8672193815217506687318.png');
+    background-position: 90% 90%;
+    background-size: 30vw;
+    background-repeat: no-repeat;
+  }
+
+  .aside-two h2 {
+    font-family: Shizuru, cursive;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.582);
+    height: 8vw;
+    width: 100vw;
+    padding-top: 1vw;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .aside-two ul {
+    display: flex;
+    flex-flow: column wrap;
+    height: 45vh;
+    background-color: rgba(240, 248, 255, 0.411);
+    /* border: 2px solid red; */
+  }
+
+  .aside-two ul li {
+    font-size: 15px;
+    list-style: none;
+    line-height: 30px;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    background: rgb(153,132,167);
+    background: linear-gradient(90deg, rgba(153,132,167,1) 0%, rgba(250,194,194,1) 50%, rgba(245,198,98,1) 100%);
+  }
+
+  .main-content h1 {
+    height: 20vw;
+    width: 100vw;
+    padding: 3vw;
+    text-align: center;
+    font-family: Shizuru, cursive;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.637);
+    background-image: url('/modulo01/bloco06/dia05/exercicios/clipart1065915.png');
+    background-position: 90% center;
+    background-size: 10vw;
+    background-repeat: no-repeat;
+  }
+
+  .main-content p {
+    padding: 2px;
+    font-family: Oswald, cursive;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 60vw;
+    width: 100vw;
+    background-image: url('/modulo01/bloco06/dia05/exercicios/pngegg.png');
+    /* background-position: right auto bottom 70%; */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  footer h3 {
+    font-family: Shizuru, cursive;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.582);
+    height: 8vw;
+    width: 100vw;
+    padding-top: 1vw;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  footer p {
+    font-family: Indie Flower, cursive;
+    text-align: end;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    justify-self: flex-end;
+    width: 95vw;
+    margin: auto;
+    text-shadow: 5px 5px 10px rgba(90, 86, 86, 0.582);
+  }
+}
+
+@media only screen and (min-width: 1001px) {
+
+}
