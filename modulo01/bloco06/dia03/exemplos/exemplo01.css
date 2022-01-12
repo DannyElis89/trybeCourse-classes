@@ -1,0 +1,108 @@
+.box {
+  color: #9069EF;
+  background-color: rgb(243, 243, 243);
+  border: 2px solid #232525;
+  font-size: 50px;
+  height: 60px;
+  margin: 10px 5px;
+  text-align: center;
+  width: 30%;
+}
+
+.box-container1 {
+  background-color: #0fa36b;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  flex-direction: row;
+}
+
+.box-container2 {
+  background-color: #0fa36b;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  flex-direction: column;
+}
+
+.box-container3 {
+  background-color: #0fa36b;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  flex-direction: row-reverse;
+}
+
+.box-container4 {
+  background-color: #0fa36b;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  flex-direction: column-reverse;
+}
+
+.box-container5 {
+  background-color: #0fa36b;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  flex-wrap: wrap;
+}
+
+.box-container6 {
+  background-color: #0fa36b;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  flex-wrap: nowrap;
+}
+
+.box-container7 {
+  background-color: #0fa36b;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  flex-flow: row wrap;
+}
+
+.box-container8 {
+  background-color: #0fa36b;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  flex-flow: row nowrap;
+}
+
+.box-container9 {
+  background-color: #0fa36b;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  flex-flow: column wrap;
+}
+
+.box-container10 {
+  background-color: #0fa36b;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  flex-flow: column nowrap;
+}
+
+.box-container11 {
+  background-color: #0fa36b;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  flex-flow: row-reverse wrap;
+}
+
+.box-container12 {
+  background-color: #0fa36b;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  flex-flow: row-reverse nowrap;
+}
+
+.box-container13 {
+  background-color: #0fa36b;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  flex-flow: column-reverse wrap;
+}
+
+.box-container14 {
+  background-color: #0fa36b;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  flex-flow: column-reverse nowrap;
+}

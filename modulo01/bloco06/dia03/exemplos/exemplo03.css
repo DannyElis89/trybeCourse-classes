@@ -1,0 +1,72 @@
+.box-one {
+  color: #9069EF;
+  background-color: rgb(243, 243, 243);
+  border: 2px solid #232525;
+  font-size: 70px;
+  min-height: 80px;
+  margin: 10px 5px;
+  text-align: center;
+  width: 50px;
+}
+
+.box-two {
+  color: #9069EF;
+  background-color: rgb(243, 243, 243);
+  border: 2px solid #232525;
+  font-size: 50px;
+  min-height: 60px;
+  margin: 10px 5px;
+  text-align: center;
+  width: 50px;
+}
+
+.box-three {
+  color: #9069EF;
+  background-color: rgb(243, 243, 243);
+  border: 2px solid #232525;
+  font-size: 30px;
+  margin: 10px 5px;
+  min-height: 50px;
+  text-align: center;
+  width: 50px;
+}
+
+.box-container1 {
+  background-color: #0fa36b;
+  margin-top: 10px;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  align-items: center;
+}
+
+.box-container2 {
+  background-color: #0fa36b;
+  margin-top: 10px;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  align-items: flex-start;
+}
+
+.box-container3 {
+  background-color: #0fa36b;
+  margin-top: 10px;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  align-items: flex-end;
+}
+
+.box-container4 {
+  background-color: #0fa36b;
+  margin-top: 10px;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  align-items: stretch;
+}
+
+.box-container5 {
+  background-color: #0fa36b;
+  margin-top: 10px;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  align-items: baseline;
+}
