@@ -1,0 +1,15 @@
+{
+  "name": "exemplos",
+  "version": "1.0.0",
+  "description": "### Conteúdos abordados: * Testes unitários: uma analogia ao relógio * Testando em pequenos passos * NodeJS Assert * Introdução ao Jest * Instalando o Jest * Escrevendo testes * Expect e matchers * O bloco describe * Um pouco de mão na massa",
+  "main": "exemplo03.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
