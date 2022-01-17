@@ -9,7 +9,8 @@ const student = {
 function exibeHabilidades(parametro) {
   const chave = parametro.keys;
   for (const property in parametro) {
-      console.log(`Nome da habilidade: ${property}, Nível: ${parametro[property]}`);
+      console.log(`${property}, Nível: ${parametro[property]}`);
+      return `${property}, Nível: ${parametro[property]}`;
   }
 }
 
