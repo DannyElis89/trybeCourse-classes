@@ -44,3 +44,15 @@ Copie as funções já implementadas e desenvolva os testes. Separe as funções
 * Teste se as demais letras/números não são convertidos para cada caso;
 * Teste se a string que é retornada pelas funções têm o mesmo número de caracteres que a string passada como parâmetro.
 
+5. A função techList recebe como parâmetros um array contendo uma lista de tecnologias e uma string com um nome. Para cada tecnologia no array a função cria, em ordem alfabética, um objeto com a seguinte estrutura:
+
+~~~javascript
+{
+  tech: 'nomeTecnologia',
+  name: name,
+}
+~~~
+
+Implemente a função techList a partir dos testes abaixo. Experimente refatorar a função que você criou para esse projeto! É importante nunca alterar os testes ou as variáveis já escritas no código.
+
+      * Arquivos techList.js e techList.test.js

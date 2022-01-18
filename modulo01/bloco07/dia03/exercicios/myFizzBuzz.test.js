@@ -19,7 +19,4 @@ describe('Verifica o comportamento da função myFizzBuzz', () => {
 })
 
 
-// it('Verifica se o retorno de sum(4, 5) é 9', () => {
-//   expect(sum(4, 5)).toBe(9);
-// });
-// expect(() => sum(1, '2')).toThrowError('Os parâmetros precisam ser valores numéricos.');
+

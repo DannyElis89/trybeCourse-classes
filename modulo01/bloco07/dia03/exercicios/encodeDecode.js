@@ -42,6 +42,11 @@ function decode(string2) {
 }
 
 module.exports = {
-  decode,
   encode,
-};
+  decode,
+}
+
+console.log(typeof(encode('Olá, tudo bem?').length));
+console.log(typeof(decode('Olá, t5d4 b2m?').length));
+
+// console.log(typeof(decode));
