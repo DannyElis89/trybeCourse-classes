@@ -1,0 +1,1 @@
+const encodeDecode = require('./encodeDecode');
