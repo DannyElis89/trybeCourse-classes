@@ -59,8 +59,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
 - [X] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [X] 7-2: _JavaScript ES6 - Objects_
-- [X] 7-3: _Testes unitários em JavaScript_
+- [X] 7-2: _JavaScript ES6 - Fluxo de exceção e Objects_
+- [X] 7-3: _Primeiros passos em Jest_
 - [X] 7-4: _[Projeto - JavaScript Testes Unitários](./modulo01/bloco07/Projeto)_
 
 ##### Bloco 8: JavaScript ES6
@@ -69,13 +69,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [X] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
 - [X] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-5: _[Projeto - Zoo functions]()_
+- [X] 8-5: _[Projeto - Zoo functions](./modulo01/bloco08/Projeto/)_
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Promises_
-- [ ] 9-3: _[Projeto - Carrinho de Compras]()_
+- [X] 9-1: _JavaScript Assíncrono e Callbacks_
+- [X] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
+- [X] 9-3: Jest - _Testes Assíncronos_
+- [ ] 9-4: _[Projeto - Carrinho de Compras](./modulo01/bloco09/projeto/)_
 
 ##### Bloco 10: Jest
 
