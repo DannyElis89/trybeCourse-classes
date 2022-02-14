@@ -12,8 +12,14 @@ No código abaixo você tem a função getUser , que define um objeto com os dad
 
 2. Passe, como parâmetro e como retorno, uma callback para a função getUser .
 No código abaixo você tem a função getUser modificada, que agora funciona de modo assíncrono e imprime dados de uma pessoa depois de um certo tempo. Complete a função getUser de forma que ela receba uma callback como parâmetro e a retorne para que possa realizar as operações abaixo sobre a pessoa:
-
 * Insira uma callback como parâmetro da função getUser ;
 * Retorne a callback passada como parâmetro na função getUser ;
 
         Arquivo exemplo02.js
+
+3. Adicione uma callback e trate o erro retornado.
+A função getCountry abaixo tem aproximadamente 50% de chance em obter, com sucesso, um país. Ela utiliza uma callback para poder realizar qualquer operação sobre o país retornado.
+* Adicione um segundo parâmetro, que deve ser uma callback , na função getCountry ;
+* Retorne essa callback na função getCountry de forma que trate a mensagem de erro.
+
+        Arquivo exemplo03.js
