@@ -76,7 +76,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 9-1: _JavaScript Assíncrono e Callbacks_
 - [X] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
 - [X] 9-3: Jest - _Testes Assíncronos_
-- [ ] 9-4: _[Projeto - Carrinho de Compras](./modulo01/bloco09/projeto/)_
+- [X] 9-4: _[Projeto - Carrinho de Compras](./modulo01/bloco09/projeto/)_
 
 ##### Bloco 10: Jest
 
