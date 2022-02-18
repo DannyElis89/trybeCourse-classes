@@ -12,5 +12,4 @@
   * Métodos
   * Classes e React
   * Conclusão
-* Componentes React
-* Projeto - Sistema Solar
+
