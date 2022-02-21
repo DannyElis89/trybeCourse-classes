@@ -3,5 +3,13 @@
 
 * Introdução - React
 * 'Hello, world!' no React!
-* Componentes React
-* Projeto - Sistema Solar
+  * Gerenciador de pacotes
+  * Conceitos iniciais
+  * JSX
+  * ReactDOM.render
+  * CSS e Import
+  * Criação de componentes funcionais e de classe
+  * Métodos
+  * Classes e React
+  * Conclusão
+
