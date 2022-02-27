@@ -3,3 +3,19 @@
   flex-flow: column wrap;
   max-width: 580px;
 }
+
+div {
+  margin: 20px 10px;
+}
+
+label {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  display: block;
+  /* border: 1px solid red; */
+}
+
+textarea, input, select {
+  margin-top: 5px;
+  /* border: 1px solid green; */
+}

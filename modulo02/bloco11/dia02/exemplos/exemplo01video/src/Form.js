@@ -1,5 +1,11 @@
-import React, { Component } from 'react'
-import './Form.css'
+import React, { Component } from 'react';
+import './Form.css';
+import EstadoFavorito from './components/EstadoFavorito';
+import Email from './components/Email';
+import Name from './components/Name';
+import Idade from './components/Idade';
+import VaiComparecer from './components/VaiComparecer';
+import PalavraChave from './components/PalavraChave';
 
 class Form extends Component {
   constructor() {
@@ -9,14 +15,21 @@ class Form extends Component {
 
     this.state = {
       estadoFavorito: '',
+      name: '',
+      email: '',
+      idade: 0,
+      vaiComparecer: false,
+      palavraChave: ''
     };
   }
 
+  handleChange({target}) {
+    const { name } = target;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
 
-  handleChange(event) {
     this.setState({
-      estadoFavorito: event.target.value,
-    });
+      [name]: value,
+    })
   }
 
   render() {
@@ -24,24 +37,29 @@ class Form extends Component {
       <div>
         <h1>Estados e React - Tecnologia fantástica ou reagindo a regionalismos?</h1>
         <form className="form">
-          <label htmlFor='textAreaId'>
-            Diga qual o seu Estado favorito! De React ou do Brasil, você decide! =)
-              <textarea id="textAreaId"
-                name="estadoFavorito"
-                value={this.state.estadoFavorito}
-                onChange={this.handleChange} />
-          </label>
-          <label htmlFor='inputIdade'>
-            Insira a sua idade:
-            <input
-              type="number"
-              name="idade"
-              id='inputIdade'
-            />
-          </label>
-          <input
-            type="checkbox"
-            name="vaiComparecer"
+          <EstadoFavorito
+            value={this.state.estadoFavorito}
+            handleChange={this.handleChange}
+          />
+          <Email
+            value={this.state.email}
+            handleChange={this.handleChange}
+          />
+          <Name
+            value={this.state.name}
+            handleChange={this.handleChange}
+          />
+          <Idade
+            value={this.state.idade}
+            handleChange={this.handleChange}
+          />
+          <VaiComparecer
+            value={this.state.vaiComparecer}
+            handleChange={this.handleChange}
+          />
+          <PalavraChave
+            value={this.state.palavraChave}
+            handleChange={this.handleChange}
           />
         </form>
       </div>
