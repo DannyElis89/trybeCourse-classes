@@ -1,0 +1,4 @@
+/* remover esse css. Está aqui só pro lint n"ao reclamar de arquivo vazio */
+* {
+  margin: 0;
+}

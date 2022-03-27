@@ -97,24 +97,24 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 12-1: _Ciclo de vida de componentes_
 - [X] 12-2: _React Router_
-- [X] 12-4: _[Projeto - TrybeTunes]()_
+- [X] 12-4: _[Projeto - TrybeTunes](./modulo02/bloco12/projeto)_
 
 ##### Bloco 13: Metodologias Ágeis
 
 - [X] 13-1: _Metodologias Ágeis_
-- [X] 13-2: _[Projeto - Frontend Online Store]()_
+- [X] 13-2: _[Projeto - Frontend Online Store](./modulo02/bloco13/projeto)_
 
 ##### Bloco 14: Testes automatizados com React Testing Library
 
 - [X] 14.1 - _[RTL - Primeiros passos]_
 - [X] 14.2 - _[RTL - Mocks e Inputs]_
 - [X] 14.3 - _[RTL - Testando React Router]_
-- [X] 14.4 - _[Projeto - Testes em React]()_
+- [X] 14.4 - _[Projeto - Testes em React](./modulo02/bloco14/projeto)_
 
 ##### Bloco 15: Gerenciamento de estado com Redux
 
-- [ ] 15.1 - _[Introdução ao Redux - O estado global da ]_aplicação
-- [ ] 15.2 - _[Usando o Redux no React]_
+- [X] 15.1 - _[Introdução ao Redux - O estado global da ]_aplicação
+- [X] 15.2 - _[Usando o Redux no React]_
 - [ ] 15.3 - _[Usando o Redux no React - Prática]_
 - [ ] 15.4 - _[Usando o Redux no React - Actions Assíncronas]_
 - [ ] 15.5 - _[Testes síncronos com React-Redux]_
