@@ -1,6 +1,7 @@
 # Bloco 15: Gerenciamento de estado com Redux
 ## Dia 02: Usando o Redux no React
 ### Conteúdos abordados:
+
 * Relembrando conceitos
 * store
 * reducer e rootReducer
