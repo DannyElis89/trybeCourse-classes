@@ -1,0 +1,119 @@
+.App {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.App-header {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+
+}
+
+header {
+  align-items: center;
+  color: #24b9dd;
+  display: flex;
+  flex-direction: row;
+  font-family: Arial , sans-serif;
+  height: auto;
+  padding: 10px;
+  width: 100%;
+}
+
+p {
+  display: inline-block;
+  font-family: Arial , sans-serif;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.fade {
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-name: fadeout;
+  color: #24b9dd;
+
+}
+
+.fade-image {
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-name: fadeout;
+  margin: auto;
+}
+
+@keyframes fadeout {
+
+  from {
+    font-size: 100%;
+    margin: 10px , auto;
+    width: 100%;
+  }
+
+  to {
+    font-size: 0%;
+    margin: 10px , auto;
+    width: 30%;
+  }
+}
+
+
+.perspective {
+  color: #fed34f;
+  display: flex;
+  flex-flow: row , wrap;
+  margin: 10px , auto;
+  text-align: justify;
+  transform: perspective(300px) rotateX(25deg);
+  width: auto;
+}
+
+
+.filters-buttons {
+  display: flex;
+  flex-flow: row , nowrap;
+  height: 50px;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.glassEffect {
+  backdrop-filter: blur(2px);
+  background: rgba(255, 255, 255, 0.253);
+
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+
+  /* border-radius: 8px; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.table-header {
+  backdrop-filter: blur(1px);
+  background: rgba(255, 255, 255, 0.13);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.table-items {
+  backdrop-filter: blur(0.5px);
+  background: rgba(255, 255, 255, 0.048);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}

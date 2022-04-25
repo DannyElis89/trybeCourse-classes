@@ -122,51 +122,51 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 16: Projeto Jogo de Trivia
 
-- [X] 16.1 - Projeto - Jogo de Trivia
+- [X] 16.1 - _[Projeto - Jogo de Trivia](./modulo02/bloco16/projeto/)_
 
 ##### Bloco 17: Context API e React Hooks
 
-- [X] 17.1 - Context API do React
-- [X] 17.2 - React Hooks - useState e useContext
-- [ ] 17.3 - React Hooks - useEffect e Hooks customizados
-- [ ] 17.4 - Projeto - StarWars Datatable com Context API e Hooks
+- [X] 17.1 - _[Context API do React]_
+- [X] 17.2 - _[React Hooks - useState e useContext]_
+- [X] 17.3 - _[React Hooks - useEffect e Hooks customizados]_
+- [X] 17.4 - _[Projeto - StarWars Datatable com Context API e Hooks](./modulo02/bloco17/projeto/)_
 
 ##### Bloco 18: Projeto App de Receitas
 
-- [ ] 18.1 - Projeto - App de Receitas
+- [ ] 18.1 - _[Projeto - App de Receitas]()_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ##### Bloco 19: Docker: Utilizando Containers
 
-- [ ] 19.1 - Utilizando Containers - Docker
-- [ ] 19.2 - Manipulação e Criação de Imagens no Docker
-- [ ] 19.3 - Orquestrando Containers com Docker Compose
-- [ ] 19.4 - Projeto - Docker Todo-List
+- [ ] 19.1 - _[Utilizando Containers - Docker]_
+- [ ] 19.2 - _[Manipulação e Criação de Imagens no Docker]_
+- [ ] 19.3 - _[Orquestrando Containers com Docker Compose]_
+- [ ] 19.4 - _[Projeto - Docker Todo-List]()_
 
 ##### Bloco 20: Introdução à SQL
 
-- [ ] 20.1 - Banco de dados SQL
-- [ ] 20.2 - Encontrando dados em um banco de dados
-- [ ] 20.3 - Filtrando dados de forma específica
-- [ ] 20.4 - Manipulando tabelas
-- [ ] 20.5 - Projeto - All For One
+- [ ] 20.1 - _[Banco de dados SQL]_
+- [ ] 20.2 - _[Encontrando dados em um banco de dados]_
+- [ ] 20.3 - _[Filtrando dados de forma específica]_
+- [ ] 20.4 - _[Manipulando tabelas]_
+- [ ] 20.5 - _[Projeto - All For One]()_
 
 ##### Bloco 21: Funções SQL, JOINs e Subqueries
 
-- [ ] 21.1 - Funções mais usadas no SQL
-- [ ] 21.2 - Descomplicando JOINs
-- [ ] 21.3 - Transformando ideias em um modelo de banco de dados
-- [ ] 21.4 - Projeto - One For All
+- [ ] 21.1 - _[Funções mais usadas no SQL]_
+- [ ] 21.2 - _[Descomplicando JOINs]_
+- [ ] 21.3 - _[Transformando ideias em um modelo de banco de dados]_
+- [ ] 21.4 - _[Projeto - One For All]()_
 
 ##### Bloco 22: Introdução ao desenvolvimento Web com NodeJS
 
-- [ ] 22.1 - NodeJS - Um motor JavaScript
-- [ ] 22.2 - NodeJS - Fluxo Assíncrono
-- [ ] 22.3 - Mocha, Chai e Sinon - Testes de Back-end com NodeJS
-- [ ] 22.4 - Express - HTTP com Node.js
-- [ ] 22.5 - Express - Middlewares
-- [ ] 22.6 - Projeto - Talker manager
+- [ ] 22.1 - _[NodeJS - Um motor JavaScript]_
+- [ ] 22.2 - _[NodeJS - Fluxo Assíncrono]_
+- [ ] 22.3 - _[Mocha, Chai e Sinon - Testes de Back-end com NodeJS]_
+- [ ] 22.4 - _[Express - HTTP com Node.js]_
+- [ ] 22.5 - _[Express - Middlewares]_
+- [ ] 22.6 - _[Projeto - Talker manager]()_
 
 ##### Bloco 23: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 
