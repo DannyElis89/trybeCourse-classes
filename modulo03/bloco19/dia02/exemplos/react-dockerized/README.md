@@ -42,8 +42,9 @@ Ao criarmos uma nova imagem, sempre devemos baseá-la em uma outra, e para isso 
 FROM ubuntu:latest
 ~~~
 
-A partir do FROM é possível usar qualquer comando em qualquer ordem. Porém, dependendo do funcionamento do seu aplicativo, etapas bem posicionadas podem otimizar o processo de build (que é a construção da imagem), rebuild (reconstrução da imagem) ou mesmo na distribuição. Isso porque quanto menos etapas para aplicação rodar, menos camadas a imagem vai gerar, diminuindo seu peso.
-Isso é importante, principalmente quando estamos trabalhando em uma imagem que recebe atualizações regulares.
+* A partir do FROM é possível usar qualquer comando em qualquer ordem. Porém, dependendo do funcionamento do seu aplicativo, etapas bem posicionadas podem otimizar o processo de build (que é a construção da imagem), rebuild (reconstrução da imagem) ou mesmo na distribuição.
+* Isso porque quanto menos etapas para aplicação rodar, menos camadas a imagem vai gerar, diminuindo seu peso.
+* Isso é importante, principalmente quando estamos trabalhando em uma imagem que recebe atualizações regulares.
 
 É recomendado utilizar sempre uma versão específica de nossa imagem base em nossas imagens de produção. Por exemplo ubuntu:8 ao invés de ubuntu:latest, pois isso garante que estaremos utilizando sempre a mesma imagem base quando buildarmos nossa imagem, evitando quebras de compatibilidade caso a imagem latest seja atualizada para a versão 9, por exemplo.
 

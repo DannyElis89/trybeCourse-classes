@@ -133,16 +133,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 18: Projeto App de Receitas
 
-- [ ] 18.1 - _[Projeto - App de Receitas]()_
+- [X] 18.1 - _[Projeto - App de Receitas](./modulo02/bloco18/)_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ##### Bloco 19: Docker: Utilizando Containers
 
-- [ ] 19.1 - _[Utilizando Containers - Docker]_
-- [ ] 19.2 - _[Manipulação e Criação de Imagens no Docker]_
-- [ ] 19.3 - _[Orquestrando Containers com Docker Compose]_
-- [ ] 19.4 - _[Projeto - Docker Todo-List]()_
+- [X] 19.1 - _[Utilizando Containers - Docker]_
+- [X] 19.2 - _[Manipulação e Criação de Imagens no Docker]_
+- [X] 19.3 - _[Orquestrando Containers com Docker Compose]_
+- [X] 19.4 - _[Projeto - Docker Todo-List](./modulo03/bloco19/projeto/)_
 
 ##### Bloco 20: Introdução à SQL
 
