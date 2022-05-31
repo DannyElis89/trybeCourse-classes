@@ -1,5 +1,5 @@
 USE sakila;
-# Query + LIMIT quantidade_de_linhas OFFSET quantidade_de_linhas
+-- Query + LIMIT quantidade_de_linhas OFFSET quantidade_de_linhas
 SELECT * FROM rental LIMIT 10 OFFSET 3;
 
 SELECT * FROM actor;
