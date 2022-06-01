@@ -66,3 +66,12 @@ Para consolidar esse conhecimento, brinque com os resultados que serão encontra
 5. Monte um relatório que exiba o título e classificação dos 500 primeiros filmes direcionados para as classificações indicativas G, PG e PG-13. Os resultados devem estar ordenados por título.
 
         P.S. As classificações podem ser verificadas acima, na seção "Alavancando o poder dos principais comparadores lógicos".
+
+--------------------------------------------
+
+### Para fixar - 04:
+
+1. Quantos pagamentos temos com a data de retorno 2005-05-25? Há múltiplas maneiras possíveis de encontrar a resposta.
+2. Quantos pagamentos foram feitos entre 01/07/2005 e 22/08/2005?
+3. Usando a tabela rental, extraia data, ano, mês, dia, hora, minuto e segundo dos registros com rental_id = 10330. Utilize a coluna rental_date para extrair as informações.
+4. Monte uma query que retorne todos os dados do pagamento feito no dia 28/07/2005 a partir das 22 horas.
