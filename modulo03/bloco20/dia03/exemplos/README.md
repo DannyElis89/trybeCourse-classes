@@ -31,4 +31,25 @@ Entre no banco de dados sakila e siga as instruções (e guarde as queries para 
 5. Mostre todos os detalhes dos clientes que não estão ativos na loja 1. As informações podem ser encontradas na tabela customer
 6. Precisamos descobrir quais são os 50 filmes feitos apenas para adultos com a menor taxa de aluguel, para que possamos fazer uma divulgação melhor desses filmes. Em caso de empate, ordene em ordem alfabética pelo título. As informações podem ser encontradas na tabela film
 
+--------------------------------------------
+
 Você vai se deparar também com casos em que você só tem parte de uma informação, ou em que precisa criar queries mais dinâmicas. Para esses casos, temos o LIKE. Como assim? É o que veremos a seguir.
+
+O LIKE é usado para buscar por meio de uma sequência específica de caracteres, como no exemplo acima. Além disso, dois "curingas", ou modificadores, são normalmente usados com o LIKE:
+
+    % - O sinal de percentual, que pode representar zero, um ou múltiplos caracteres
+    _ - O underscore (às vezes chamado de underline, no Brasil), que representa um único caractere
+
+--------------------------------------------
+
+### Para fixar - 02:
+
+Para consolidar esse conhecimento, brinque com os resultados que serão encontrados usando os comandos acima e tente criar suas próprias condições. Depois de ter praticado um pouco com eles, tente encontrar as seguintes informações:
+
+01. Mostre todos os detalhes dos filmes que contêm a palavra ace no nome.
+02. Mostre todos os detalhes dos filmes cujas descrições finalizam com china.
+03. Mostre todos os detalhes dos dois filmes cujas descrições contêm a palavra girl e o título finaliza com a palavra lord.
+04. Mostre os dois casos em que, a partir do 4° caractere no título do filme, tem-se a palavra gon.
+05. Mostre o único caso em que, a partir do 4° caractere no título do filme, tem-se a palavra gon e a descrição contém a palavra Documentary.
+06. Mostre os dois filmes cujos títulos ou finalizam com academy ou iniciam com mosquito.
+07. Mostre os seis filmes que contêm as palavras monkey e sumo em suas descrições.
