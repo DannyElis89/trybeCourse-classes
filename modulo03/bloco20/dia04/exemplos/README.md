@@ -1,72 +1,10 @@
 # Bloco 20 - Introdução à SQL
 ## Dia 04: Manipulando tabelas
 
----------
-#### Informação importante sobre os tipos de aspas:
-* Backticks ou crase (``): são usadas para identificar nome de tabelas e colunas. São necessárias apenas quando o identificador for uma palavra reservada do MySQL, ou quando o nome da tabela ou coluna contiver espaços em branco.
-* Aspas simples (''): devem ser usadas em valores do tipo string. Aspas simples são aceitas na maioria dos Sistemas de Gerenciamento de Banco de Dados, sendo assim, é preferível usar aspas simples no lugar das aspas duplas.
-
----------
-
-### INSERT
-
-* A sintaxe para inserir dados em uma tabela é a seguinte:
-~~~sql
-INSERT INTO nome_da_tabela (coluna1, coluna2)
-VALUES ('valor_coluna1', 'valor_coluna2');
-~~~
-
-
-* Inserindo várias linhas de uma vez:
-~~~sql
-INSERT INTO nome_da_tabela (coluna1, coluna2) VALUES
-('valor_1','valor_2'),
-('valor_3','valor_4'),
-('valor_5','valor_6');
-~~~
-
-
-* Ignorando linhas existentes:
-
-![Tabela `pessoas`](https://assets.app.betrybe.com/back-end/sql/images/SimpleTableData1-e74f5b1a4c4a1bef95d8225b33ddf116.png)
-
-~~~sql
-INSERT IGNORE INTO pessoas (id, name) VALUES
-(4,'Gloria'), -- Sem o IGNORE, essa linha geraria um erro e o INSERT não continuaria.
-(5,'Amanda');
-
--- Pesquisando agora, você verá que a informação duplicada não foi inserida.
--- Porém os dados corretos foram inseridos com sucesso.
-SELECT * FROM pessoas;
-~~~
-      IMPORTANTE: Lembre-se de que o INSERT IGNORE vai pular os outros erros silenciosamente também.
-
-
-* Inserindo valores em colunas com auto_increment
-
-      A coluna que possui auto_increment é omitida no INSERT, uma vez que o valor já é gerado automaticamente:
-
-~~~sql
-INSERT INTO sakila.actor (first_name, last_name)
-VALUES('Marcelo','Santos');
-~~~
-![Resultado do `INSERT` em `sakila.actor`](https://assets.app.betrybe.com/back-end/sql/images/SimpleTableData3-4071b0ab46c7cfd87011352aa3a3fd97.png)
-
-
----------
-
-### INSERT SELECT (Inserindo dados de uma outra tabela)
-
-~~~sql
-INSERT INTO tabelaA (coluna1, coluna2)
-    SELECT tabelaB.coluna1, tabelaB.coluna2
-    FROM tabelaB
-    WHERE tabelaB.nome_da_coluna <> 'algumValor'
-    ORDER BY tabelaB.coluna_de_ordenacao;
-~~~
-
----------
 ### Exemplos:
+
+
+#### INSERT
 
 1. Insira um novo funcionário na tabela sakila.staff.
 
@@ -77,3 +15,11 @@ INSERT INTO tabelaA (coluna1, coluna2)
 4. Cadastre três categorias de uma vez só na tabela sakila.category.
 5. Cadastre uma nova loja na tabela sakila.store.
 
+-------------------
+
+#### UPDATE
+
+01. Atualize todas as linhas da tabela sakila.actor que possuem o primeiro nome "JULIA" para "JULES".
+02. Altere a linha da tabela categoria onde o valor da coluna x é igual "Sci-fi" para "Science Fiction".
+03. Corrija para $25 o valor do aluguel da tabela filmes com duração maior que 100 minutos e que possuem classificação "G", "PG" ou "PG-13" e um custo de substituição maior que $20.
+04. Agora, o aluguel dos filmes com duração entre 0 e 100 minutos passará a ser $10,00 e o aluguel dos filmes com duração acima de 100 minutos passará a ser de $20,00.
