@@ -149,8 +149,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 20.1 - _[Banco de dados SQL]_
 - [X] 20.2 - _[Encontrando dados em um banco de dados]_
 - [X] 20.3 - _[Filtrando dados de forma específica]_
-- [ ] 20.4 - _[Manipulando tabelas]_
-- [ ] 20.5 - _[Projeto - All For One]()_
+- [X] 20.4 - _[Manipulando tabelas]_
+- [X] 20.5 - _[Projeto - All For One](./modulo03/bloco20/projeto/)_
 
 ##### Bloco 21: Funções SQL, JOINs e Subqueries
 
