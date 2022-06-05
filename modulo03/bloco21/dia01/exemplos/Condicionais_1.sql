@@ -2,7 +2,9 @@
 	-- SELECT IF(condicao, valor_se_verdadeiro, valor_se_falso);
     -- Ex: 
 		-- SELECT IF(idade >= 18, 'Maior de idade', 'Menor de Idade')
-			-- FROM pessoas;
+			-- AS 'Nome da coluna'
+            -- FROM pessoas
+            -- LIMIT 10;
 		-- SELECT IF(aberto, 'Entrada permitida', 'Entrada não permitida')
 			-- FROM estabelecimentos;
 
