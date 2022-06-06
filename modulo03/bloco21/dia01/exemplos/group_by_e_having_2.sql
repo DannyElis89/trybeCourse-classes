@@ -44,7 +44,3 @@ USE sakila;
 		FROM address
 		GROUP BY district
 		ORDER BY Total DESC;
-
-
-
-

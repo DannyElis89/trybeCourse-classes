@@ -2,7 +2,7 @@
 ## Dia 01: Funções mais usadas no SQL
 
 ### Para fixar:
-------
+
 #### Manipulação de strings:
   1. Faça uma query que exiba a palavra 'trybe' em CAIXA ALTA.
 
@@ -77,3 +77,20 @@
   3. Monte uma query que exiba a média de duração de locação por classificação indicativa (rating) dos filmes cadastrados na tabela sakila.film. Os resultados devem ser agrupados pela classificação indicativa e ordenados da maior média para a menor.
 
   4. Monte uma query para a tabela sakila.address que exiba o nome do distrito e a quantidade de endereços registrados nele. Os resultados devem ser ordenados da maior quantidade para a menor.
+
+  ##### Filtrando Resultados do GROUP BY com HAVING:
+  1. Usando a query a seguir, modifique-a de forma que exiba apenas as durações médias que estão entre 115.0 a 121.50. Além disso, dê um alias (apelido) à coluna gerada por AVG(length), de forma que deixe a query mais legível. Finalize ordenando os resultados de forma decrescente.
+
+~~~sql
+    SELECT rating, AVG(length)
+    FROM sakila.film
+    GROUP BY rating;
+~~~
+
+  2. Usando a query a seguir, exiba apenas os valores de total do custo de substituição que estão acima de $3950.50. Dê um alias que faça sentido para SUM(replacement_cost), de forma que deixe a query mais legível. Finalize ordenando os resultados de forma crescente.
+
+~~~sql
+    SELECT rating, SUM(replacement_cost)
+    FROM sakila.film
+    GROUP by rating;
+~~~
