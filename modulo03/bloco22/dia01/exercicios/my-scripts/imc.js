@@ -1,5 +1,4 @@
-const PESO_PADRAO_EM_KG = 72;
-const ALTURA_PADRAO_EM_CM = 165;
+const readline = require('readline-sync');
 
 const calcImc = (peso, alt) => {
   console.log(`Peso: ${peso}, Altura: ${alt}`);
@@ -12,10 +11,25 @@ const calcImc = (peso, alt) => {
   return imc;
 };
 
+const categoriaIMC = (imc) => {
+  console.log(imc);
+  if (imc < 18.5) return 'Abaixo do peso (magreza)';
+  if (imc < 25) return 'Peso normal';
+  if (imc < 30) return 'Acima do peso (sobrepeso)';
+  if (imc < 35) return 'Obesidade grau I';
+  if (imc < 40) return 'Obesidade grau II';
+  if (imc >= 40) return 'Obesidade graus III e IV';
+}
+
 function main() {
-  const imc = calcImc(PESO_PADRAO_EM_KG, ALTURA_PADRAO_EM_CM);
+  const peso = readline.questionFloat('Qual o seu peso (em kg)?');
+  const altura = readline.questionInt('Qual a sua altura (em cm)?');
+
+  const imc = calcImc(peso, altura);
+  const situacao =categoriaIMC(imc);
 
   console.log(`IMC: ${imc.toFixed(2)}`);
+  console.log(`Situação: ${situacao}`);
 }
 
 main();
