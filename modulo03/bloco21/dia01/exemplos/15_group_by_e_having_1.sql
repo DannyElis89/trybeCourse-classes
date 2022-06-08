@@ -7,7 +7,10 @@ USE sakila;
 	SELECT first_name FROM actor
 		GROUP BY first_name;
 -- Ex 2:
-    SELECT first_name, COUNT(*) FROM actor
+    SELECT 
+		first_name, 
+        COUNT(*) AS ocorrencias
+        FROM actor
 		GROUP BY first_name;
 
 -- GROUP BY + Funções agregativas:
