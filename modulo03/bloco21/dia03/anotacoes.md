@@ -33,6 +33,7 @@
 3. Criar um banco de dados para conter suas tabela:
     * Após analisar e criar um diagrama de como o seu banco de dados vai ser estruturado, você pode dar início a criação dele.
     * **Principais comandos:**
+
     ~~~sql
     -- Cria um banco de dados com o nome especificado.
     CREATE DATABASE nome_do_banco_de_dados;
@@ -127,5 +128,17 @@
 ### Primary Key e Foreign Key:
 
 1. **Primary Key**:
-  * Identificador único (id);
+  * Identificador único (id): cada registro na tabela deve possuir uma, e somente uma, chave primária;
   * Coluna (chave simples) ou grupo de colunas (chave composta) usadas para identificar uma linha em uma tabela;
+  * Não podem ser nulas (NOT NULL);
+  * Normalmente, chaves primárias são incrementadas automaticamente pelo banco de dados, ou seja, não há necessidade de passarmos esse valor em um `INSERT`.
+    * Entretanto, essa é uma opção configurada na criação da base de dados que não é obrigatória.
+    * Nos casos em que o incremento automático não é definida, é preciso garantir que não haverão valores repetidos nessa coluna;
+  * São as chaves para o relacionamento entre entidades ou tabelas da base de dados. Assim haverá na tabela relacionada uma referência a essa chave primária (que será, na tabela relacionada, a chave estrangeira).
+
+2. **Foreign Key**:
+  * Diz respeito a um relacionamento entre tabelas;
+  * É um campo em uma tabela que faz referência a um campo que é chave primária em outra tabela;
+  * Pode ser nula;
+    * Embora não haja, efetivamente, nenhum problema das chaves estrangeiras aceitarem o valor null, tal característica pode gerar o que é chamado de registro órfão, isto é, um registro sem dados para um determinado relacionamento.
+  * É possível ter mais de uma (ou nenhuma) em uma tabela.
