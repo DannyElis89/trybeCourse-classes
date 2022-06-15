@@ -8,4 +8,10 @@
 * 2ª Forma Normal
 * 3ª Forma Normal
 * Exercícios de fixação - normalização de dados
-* Bônus: Transformando ideias em um modelo de banco de dados - Parte 2
+* Bônus: Transformando ideias em um modelo de banco de dados - Parte 2:
+  * DUMPs
+  * Clonar tabelas existentes
+  * O que é e como lidar com uma VIEW
+  * Tudo que você deve saber sobre o ALTER TABLE
+  * DROPando uma tabela
+  * Como usar um INDEX

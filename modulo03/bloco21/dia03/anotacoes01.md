@@ -1,7 +1,6 @@
 # Bloco 21: Funções SQL, JOINs e Normalização
 
 ## Dia 03: Transformando ideias em um modelo de banco de dados
-------------------
 
 ### Database Design - Como modelar um banco de dados:
 
@@ -188,5 +187,3 @@
 
     * A tabela deve estar na 1ª e 2ª Formas Normais;
     * *A tabela não deve conter atributos (colunas) que não sejam dependentes exclusivamente da PK (chave primária)*.
-
-
