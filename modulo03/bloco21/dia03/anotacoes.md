@@ -142,3 +142,51 @@
   * Pode ser nula;
     * Embora não haja, efetivamente, nenhum problema das chaves estrangeiras aceitarem o valor null, tal característica pode gerar o que é chamado de registro órfão, isto é, um registro sem dados para um determinado relacionamento.
   * É possível ter mais de uma (ou nenhuma) em uma tabela.
+
+------------------
+
+### Normalização de banco de dados relacionais:
+1. É uma técnica para organizar tabelas relacionadas no banco de dados com o objetivo de reduzir a redundância de dados;
+
+2. Problemas com bancos de dados não normalizados:
+  * Tabelas ocupando espaços desnecessários (dados duplicados);
+  * Anomalias:
+    * de inserção;
+      * Erros de digitação;
+    * de atualização;
+      * atualizar os dados nas tabelas se torna custoso, pois seria necessário buscar onde as informações se encontram em cada tabela e atualizar 'uma a uma';
+      * Erros de digitação;
+    * de exclusão;
+      * Não conseguir apagar os dados de forma satisfatória;
+      * Perda completa de dados (menor segurança na manipulação dos bancos de dados);
+
+3. Como a normalização resolve esse problema:
+  * Separa os dados relacionados em suas próprias tabelas;
+  * Integridade dos dados;
+  * Redução de espaço gasto no banco de dados;
+
+4. Formas de normalização:
+
+  - **1ª Forma Normal**
+    * As tabelas devem ser `escaláveis` (preparadas para grandes quantidades de dados);
+    * As tabelas devem ser `extensíveis` (mudanças não devem quebrar a integridade dos dados);
+    * Regras:
+      * Colunas devem possuir *apenas um valor*;
+      * Valores em uma coluna devem ser do *mesmo tipo de dados*;
+      * Cada coluna deve possuir um *nome único*;
+      * A ordem dos dados registrados em uma tabela não deve afetar a integridade dos dados.
+
+
+  - **2ª Forma Normal**
+    * A tabela deve estar na 1ª Forma Normal;
+    * *A tabela não deve possuir dependências parciais*.
+      * Uma dependência parcial pode ser considerada como qualquer coluna que não depende exclusivamente da chave primária da tabela para existir.
+      * Uma coluna sem dependência parcial, precisa da *chave primária* para ser diferenciado de outros.
+
+
+  - **3ª Forma Normal**
+
+    * A tabela deve estar na 1ª e 2ª Formas Normais;
+    * *A tabela não deve conter atributos (colunas) que não sejam dependentes exclusivamente da PK (chave primária)*.
+
+
