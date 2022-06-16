@@ -62,7 +62,6 @@
       * `cidade`;
       * `estado`;
 
-
     * `inquilinos`:
       * `inquilino_id` *(chave primária)*;
       * `first_name`;
@@ -72,3 +71,46 @@
       * `id` *(chave primária)*;
       * `inquilino_id` *(chave estrangeira)*;
       * `residencia_id` *(chave estrangeira)*;
+
+3. 🚀 Converta a tabela desnormalizada abaixo (que já está nos padrões da 1ª Forma Normal) para a 2ª Forma Normal.
+
+	![Tabela desnormalizada](https://assets.app.betrybe.com/back-end/sql/database-modeling/images/forma2_desnormalizada-89c8d3806e2ee316cd84cc71155de967.png)
+
+  * **Entidades, atributos e relacionamentos:**
+    * `criador`:
+      * `criador_id` *(chave primária)*;
+      * `first_name`;
+      * `last_name`;
+      * `birth`;
+
+    * `universo`:
+      * `universo_id` *(chave primária)*;
+      * `universo_name`;
+
+    * `liga`:
+      * `liga_id` *(chave primária)*;
+      * `liga_name`;
+      * `universo_id` *(chave estrangeira)*;
+
+    * `heroi`:
+      * `heroi_id` *(chave primária)*;
+      * `heroi_name`;
+      * `liga_id` *(chave estrangeira)*;
+      * `criador_id` *(chave estrangeira)*;
+
+4. 🚀 Agora, converta essa outra tabela (que já está nos moldes das duas primeiras formas) para a 3ª Forma Normal..
+
+	![Tabela desnormalizada](https://assets.app.betrybe.com/back-end/sql/database-modeling/images/forma3_desnormalizada-5af4f4b866f7a3dd9c70ff80b0c8155c.png)
+
+  * **Entidades, atributos e relacionamentos:**
+    * `generos`:
+      * `genero_id` *(chave primária)*;
+      * `genero`;
+
+    * `filmes`:
+      * `filme_id` *(chave primária)*;
+      * `titulo`;
+      * `classificacao`;
+      * `duracao`;
+      * `genero_id` *(chave estrangeira)*;
+      * `valor_entrada`;
