@@ -155,7 +155,7 @@
 
 ----
 
-### View:
+### VIEW:
 
 * Tabela temporária em um banco de dados criada a partir de uma query que permite:
   * Ter uma tabela que pode ser usada em relatórios;
@@ -186,12 +186,63 @@
 ### ALTER TABLE:
 
 * Queries utilizadas na alteração de tabelas para implementar melhorias em bancos de dados;
+  * Criação de um tabela:
+    ~~~sql
+    USE sakila;
+    CREATE TABLE noticia(
+        noticia_id INT PRIMARY KEY,
+        titulo VARCHAR(100),
+        historia VARCHAR(300)
+    ) engine = InnoDB;
+    ~~~
 
-~~~sql
-USE sakila;
-CREATE TABLE noticia(
-    noticia_id INT PRIMARY KEY,
-    titulo VARCHAR(100),
-    historia VARCHAR(300)
-) engine = InnoDB;
-~~~
+  * Queries de alterações da tabela criada acima:
+    ~~~sql
+    -- Adicionar uma nova coluna
+    ALTER TABLE noticia ADD COLUMN data_postagem date NOT NULL;
+
+    -- Modificar o tipo e propriedades de uma coluna
+    ALTER TABLE noticia MODIFY noticia_id BIGINT;
+
+    -- Adicionar incremento automático a uma coluna
+    -- (especifique o tipo da coluna + auto_increment)
+    ALTER TABLE noticia MODIFY noticia_id BIGINT auto_increment;
+
+    -- Alterar o tipo e nome de uma coluna
+    ALTER TABLE noticia CHANGE historia conteudo_postagem VARCHAR(1000) NOT NULL;
+
+    -- Dropar/Excluir uma coluna
+    ALTER TABLE noticia DROP COLUMN data_postagem;
+
+    -- Adicionar uma nova coluna após outra
+    ALTER TABLE noticia ADD COLUMN data_postagem DATETIME NOT NULL AFTER titulo;
+
+    -- Exibe as informações a respeito de todas as colunas da tabela selecionada;
+    SHOW COLUMNS FROM sakila.noticia;
+    ~~~
+
+----
+
+### DROP:
+
+* Comando utilizado para excluir uma tabela existente;
+
+  ~~~sql
+  DROP TABLE nome_da_tabela;
+  ~~~
+
+##### :warning: Atenção: :warning:
+* **Não é possível dropar (excluir) uma tabela que é referenciada por uma restrição de chave estrangeira. A chave estrangeira ou a tabela que a contém deve ser excluída antes.**
+  * Caso ocorra a tentativa de exclusão da tabela, o WorkBench retonará a seguinte mensagem de erro:
+
+    > *Error Code: 3730. Cannot drop table 'tabela-1' referenced by a foreign key constraint 'chave-estrangeira' on table 'tabela-2'*
+
+  * Esse erro ocorre em função de as informações da tabela-1 serem utilizadas na tabela-2.
+  * Ao tentar dropar a tabela-2, pode ser que ela também possua a restrição acima. Essas restrições estão relacionadas ao conceito de `integridade referencial`, que deve ser considerado quando se cria um banco de dados. Elas têm o intuito de evitar que tabelas sejam excluídas acidentalmente.
+  * **Integridade referencial:** *Propriedade que afirma que todas as referências de chaves estrangeiras devem ser válidas.*
+
+----
+
+### INDEX:
+
+* Forma mais eficiente de estruturar os dados para que sejam encontrados mais rapidamente;
