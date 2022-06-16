@@ -243,6 +243,64 @@
 
 ----
 
-### INDEX:
+### INDEX (índice):
 
 * Forma mais eficiente de estruturar os dados para que sejam encontrados mais rapidamente;
+* Tipos:
+  * `PRIMARY KEY`:
+    * Não permite valores repetidos dentro da mesma coluna;
+    * Insere por padrão as restrições `UNIQUE INDEX` + `NOT NULL` naquela coluna;
+      * `PRIMARY KEY` também é um `UNIQUE INDEX` que não permite valores nulos.
+    * Apenas uma coluna de chave primária por tabela;
+
+  * `UNIQUE`:
+    * Não permite valores repetidos dentro da mesma coluna;
+    * Não aceita valores `Null`;
+    * Podem existir mais de uma coluna com valores `UNIQUE` por tabela;
+
+  * `INDEX`:
+    * Normalmente recebe um valor numérico;
+    * Podem existir mais de uma coluna com valores `INDEX` por tabela;
+
+  * `UNIQUE INDEX`:
+    * Utilizado principalmente para previnir a duplicação de dados;
+    * Pode melhorar a performance de busca;
+    * Pode receber valores `Null`;
+
+  * `FULLTEXT INDEX`:
+    * Utilizado para realizar buscas dentro de textos grandes (Títulos e descrições de filmes, letras de música, etc.);
+
+* Como criar um índice:
+  * Em uma tabela já existente:
+    ~~~sql
+    -- Criando um índice em uma coluna
+    CREATE [INDEX | FULLTEXT INDEX | UNIQUE INDEX] nome_indice
+    ON tabela (coluna);
+
+    -- Criando um índice composto, em duas ou mais colunas
+    CREATE [INDEX | FULLTEXT INDEX | UNIQUE INDEX] nome_indice
+    ON tabela (coluna1, coluna2);
+
+    -- Excluindo índices
+    DROP INDEX nome_do_indice ON tabela;
+    ~~~
+
+  * Junto com a tabela:
+    ~~~sql
+    CREATE DATABASE IF NOT EXISTS pizzaria;
+    USE pizzaria;
+
+    CREATE TABLE pizzas(
+      pizza_id INT PRIMARY KEY,
+      sabor VARCHAR(100),
+      preco DECIMAL(5,2),
+      INDEX sabor_index(sabor)
+    ) ENGINE==InnoDB;
+    ~~~
+
+  * Quando não utilizar índices:
+    * Em tabelas pequenas, pois a diferença de performance será mínima, se houver;
+    * Em colunas que retornarão uma grande quantidade dados quando filtradas. Por exemplo, você não adicionaria os artigos "o" e "a" ao índice de um livro;
+    * Em tabelas que frequentemente têm atualizações em grande escala, uma vez que a performance dessas atualizações será afetada;
+    * Em colunas que são frequentemente manipuladas, haja vista que a manutenção do índice dessa coluna pode demandar muito tempo quando feita em excesso;
+    * Em colunas que possuem muitos valores nulos.
