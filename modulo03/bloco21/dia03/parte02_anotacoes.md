@@ -47,58 +47,59 @@
   * Comandos básicos do MySQL no terminal:
     * Acessando o MySQL via terminal:
 
-      ~~~
-      mysql -u <nome-do-usuario> -p
+      ~~~shell
+      $ mysql -u <nome-do-usuario> -p
       ...
       ~~~
       * Tags:
+
       > `-u`: *se refere ao nome de usuário* `user` *sql que será inserido logo a seguir;*
 
       > `-p`: *se refere a senha de usuário* `password` *sql que será solicitada a seguir;*
 
-      ~~~
+      ~~~shell
       ...
-      Enter password:
+      $ Enter password:
       Welcome to MySQL monitor (...)
       ~~~
 
     * Comandos do terminal dentro da instância do SQL:
-        ~~~
-        mysql> show databases;
+        ~~~shell
+        $ mysql> show databases;
         ~~~
         > `show databases`: *lista todos os bancos de dados;*
         > `drop database <banco-de-dados>`: *apaga o banco de dados selecionado;*
 
-        ~~~
-        mysql> use <banco-de-dados>;
+        ~~~shell
+        $ mysql> use <banco-de-dados>;
         Database changed
         ~~~
         > `use <banco-de-dados>`: *define o banco de dados a ser utilizado;*
 
-        ~~~
-        mysql> show tables;
+        ~~~shell
+        $ mysql> show tables;
         Database changed
         ~~~
         > `show tables`: *lista todas as tabelas do banco de dados definido no comando `use`;*
 
-        ~~~
-        mysql> select * from <nome-da-tabela>
+        ~~~shell
+        $ mysql> select * from <nome-da-tabela>
         ~~~
         > `select * from <nome-da-tabela>`: *mostra todas as informações (seletor `*`) contidas na tabela selecionada;*
 
   * MySQL dump:
     * No terminal, dentro do diretório onde o arquivo de backup será salvo:
 
-        ~~~
-        mysqldump -u <nome-do-usuario> -p <banco-de-dados> > <nome-do-arquivo.sql>
+        ~~~shell
+        $ mysqldump -u <nome-do-usuario> -p <banco-de-dados> > <nome-do-arquivo.sql>
         ...
         ~~~
         > Recupera a estrutura, as tabelas e as informações do banco de dados selecionado;
 
         > `>`: sentido de fluxo das informações do banco de dados para o arquivo. Cria um arquivo de backup a partir de um banco de dados;
 
-        ~~~
-        mysqldump -u <nome-do-usuario> -p --no-data <banco-de-dados> > <nome-do-arquivo.sql>
+        ~~~shell
+        $ mysqldump -u <nome-do-usuario> -p --no-data <banco-de-dados> > <nome-do-arquivo.sql>
         ...
         ~~~
         > `--no-data`: Recupera somente a estrutura e as tabelas sem as informações do banco de dados selecionado;
@@ -108,9 +109,9 @@
   * Recuperar banco de dados através de um arquivo dump via terminal:
     * No terminal, dentro da pasta em que se encontra o arquivo de backup;
     * Via terminal, acessar o MySQL Workbench e listar todos os bancos de dados;
-        ~~~
-        mysql -u <nome-do-usuario> -p
-        Enter password:
+        ~~~shell
+        $ mysql -u <nome-do-usuario> -p
+        $ Enter password:
         Welcome to MySQL monitor (...)
 
         mysql> show databases;
@@ -118,16 +119,16 @@
 
     * Dentro da instância do MySQL:
       * Criar o banco de dados:
-          ~~~
+          ~~~shell
           mysql> create database <banco-de-dados>;
           Query OK, 1 row affected
           ...
           ~~~
 
       * Selecionar o banco de dados criado anteriormente:
-          ~~~
-          mysqldump -u <nome-do-usuario> -p <banco-de-dados> < <nome-do-arquivo.sql>
-          Enter password:
+          ~~~shell
+          $ mysqldump -u <nome-do-usuario> -p <banco-de-dados> < <nome-do-arquivo.sql>
+          $ Enter password:
           ...
           -- Dump completed on YYYY-MM-DD HH:MM:SS
           ...
