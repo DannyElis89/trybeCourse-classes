@@ -1,0 +1,16 @@
+{
+  "name": "io-local",
+  "version": "1.0.0",
+  "description": "exemplo01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "readfilesync": "node readFileSync.js",
+    "readfilecallback": "node readFile.js",
+    "readfilepromises": "node readFile-promises.js",
+    "writeFile": "node writeFile.js",
+    "asyncawait": "node asyncawait.js"
+  },
+  "author": "DannyElis",
+  "license": "ISC"
+}
