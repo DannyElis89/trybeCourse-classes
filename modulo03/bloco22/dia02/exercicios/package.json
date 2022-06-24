@@ -5,12 +5,17 @@
   "main": "exercicios01-04.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "simpsons": "node exercicio04.js"
+    "exercicio04": "node exercicio04.js",
+    "exercicio05": "node exercicio05.js",
+    "exercicio06": "node exercicio06.js"
   },
   "keywords": [],
   "author": "Danny Elis",
   "license": "ISC",
   "devDependencies": {
     "lint": "^0.7.0"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
