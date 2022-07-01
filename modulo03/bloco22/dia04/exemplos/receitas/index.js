@@ -1,7 +1,9 @@
 const express = require('express');
-const app = express();
+const bodyParser = require('body-parser');
 const cors = require('cors');
 
+const app = express();
+app.use(bodyParser.json());
 app.use(cors());
 
 const recipes = [
@@ -12,6 +14,35 @@ const recipes = [
 
 app.get('/recipes', function (req, res) {
   res.json(recipes);
+});
+
+// const recipes2 = recipes.sort((a, b) => {
+//   return a.name < b.name ? -1 : a.name > b.name ? 1 : 0;
+// });
+
+// app.get('/recipes2', function (req, res) {
+//   res.json(recipes2);
+// });
+
+app.get('/recipes/search', function (req, res) {
+	const { name, maxPrice } = req.query;
+	const filteredRecipes = recipes.filter((r) => r.name.includes(name) && r.price < Number(maxPrice));
+	res.status(200).json(filteredRecipes);
+})
+
+app.get('/recipes/:id', function (req, res) {
+  const { id } = req.params;
+  const recipe = recipes.find((r) => r.id === Number(id));
+
+  if (!recipe) return res.status(404).json({ message: 'Recipe not found!'});
+
+  res.status(200).json(recipe);
+});
+
+app.post('/recipes', function (req, res) {
+  const { id, name, price } = req.body;
+  recipes.push({ id, name, price});
+  res.status(201).json({ message: 'Recipe created successfully!'});
 });
 
 app.listen(3001, () => {
