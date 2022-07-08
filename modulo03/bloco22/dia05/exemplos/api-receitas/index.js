@@ -28,11 +28,26 @@ app.get('/recipes/:id', function (req, res) {
   res.status(200).json(recipe);
 });
 
-app.post('/recipes', function (req, res) {
-  const { id, name, price, waitTime } = req.body;
-  recipes.push({ id, name, price, waitTime});
+app.post('/recipes', validateName, function (req, res) {
+  const { id, name, price } = req.body;
+  const { username } = req.user; // Aqui estamos acessando o usuário encontrado no middleware de autenticação.
+  recipes.push({ id, name, price, chef: username });
   res.status(201).json({ message: 'Recipe created successfully!'});
 });
+
+app.post('/recipes',
+  function (req, res, next) {
+    const { name } = req.body;
+    if (!name || name === '') return res.status(400).json({ message: 'Invalid data!'}); // 1
+
+    next(); // 2
+  },
+  function (req, res) { // 3
+    const { id, name, price } = req.body;
+    recipes.push({ id, name, price});
+    res.status(201).json({ message: 'Recipe created successfully!'});
+  }
+);
 
 app.put('/recipes/:id', function (req, res) {
   const { id } = req.params;
