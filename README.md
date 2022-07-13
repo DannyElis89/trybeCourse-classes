@@ -170,7 +170,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 23: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 23.1 - Arquitetura de Software - Camada de Model
+- [X] 23.1 - Arquitetura de Software - Camada de Model
 - [ ] 23.2 - Arquitetura de Software - Camada de Controller e Service
 - [ ] 23.3 - Arquitetura Web - Rest e Restful
 - [ ] 23.4 - Arquitetura de Software - Testando as Camadas
