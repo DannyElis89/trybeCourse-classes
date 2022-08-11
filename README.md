@@ -178,11 +178,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 24: NodeJs: ORM e Autenticação
 
-- [ ] 24.1 - ORM - Interface da aplicação com o banco de dados
-- [ ] 24.2 - ORM - Associations
-- [ ] 24.3 - JWT - (JSON Web Token)
-- [ ] 24.4 - Testando APIs com Testes de Integração
-- [ ] 24.5 - Projeto - API de Blogs
+- [X] 24.1 - ORM - Interface da aplicação com o banco de dados
+- [X] 24.2 - ORM - Associations
+- [X] 24.3 - JWT - (JSON Web Token)
+- [X] 24.4 - Testando APIs com Testes de Integração
+- [X] 24.5 - _[Projeto - API de Blogs](./modulo03/bloco24/projeto/)
 
 ##### Bloco 25: Deployment
 
