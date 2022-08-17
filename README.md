@@ -188,14 +188,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 25.1 - Infraestrutura - Deploy com Heroku
 - [ ] 25.2 - Deploy Docker & Heroku
-- [ ] 25.3 - Projeto - Stranger Things
+- [ ] 25.3 - _[Projeto - Stranger Things]()
 
 ##### Bloco 26: TypeScript
 
 - [ ] 26.1 - Introdução - TypeScript
 - [ ] 26.2 - Tipagem Estática e Generics
 - [ ] 26.3 - Express com TypeScript
-- [ ] 26.4 - Projeto - Trybe Smith
+- [ ] 26.4 - _[Projeto - Trybe Smith]()
 
 ##### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
@@ -204,24 +204,24 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 27.3 - Polimorfismo
 - [ ] 27.4 - SOLID - Introdução
 - [ ] 27.5 - SOLID - Continuação
-- [ ] 27.6 - Projeto - Trybers and Dragons
+- [ ] 27.6 - _[Projeto - Trybers and Dragons]()
 
 ##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
 
-- [ ] 28.1 - Projeto - TFC - Trybe Futebol Clube
+- [ ] 28.1 - _[Projeto - TFC - Trybe Futebol Clube]()
 
 ##### Bloco 29: Introdução ao MongoDB
 
 - [ ] 29.1 - MongoDB - Introdução
 - [ ] 29.2 - Filter Operators
-- [ ] 29.3 - Projeto - Data Flights
+- [ ] 29.3 - _[Projeto - Data Flights]()
 
 ##### Bloco 30: MongoDB: Updates Simples e Complexos
 
 - [ ] 30.1 - Updates Simples
 - [ ] 30.2 - Updates Complexos - Arrays - Parte 1
 - [ ] 30.3 - Updates Complexos - Arrays - Parte 2
-- [ ] 30.4 - Projeto - Commerce
+- [ ] 30.4 - _[Projeto - Commerce]()
 
 ##### Bloco 31: MasterClass - VPS, CI/CD
 
@@ -230,14 +230,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 32: Projeto - App de Delivery
 
-- [ ] 32.1 - Projeto - App de Delivery
+- [ ] 32.1 - _[Projeto - App de Delivery]()
 
 ##### Bloco 22: Normalização e Modelagem de Banco de Dados
 
 - [ ] 22.1 - Transformando ideias em um modelo de banco de dados
 - [ ] 22.2 - Normalização, Formas Normais e Dumps
 - [ ] 22.3 - Transformando ideias em um modelo de banco de dados - Parte 2
-- [ ] 22.4 - Projeto - One For All
+- [ ] 22.4 - _[Projeto - One For All]()
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
@@ -246,28 +246,28 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 33.1 - Aprendendo Python
 - [ ] 33.2 - Entrada e Saída de dados
 - [ ] 33.3 - Testes
-- [ ] 33.4 - Projeto - Job Insights
+- [ ] 33.4 - _[Projeto - Job Insights]()
 
 ##### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto
 
 - [ ] 34.1 - Introdução à programação orientada a objetos
 - [ ] 34.2 - Herança, Composição e Interfaces
 - [ ] 34.3 - Padrões de projeto
-- [ ] 34.4 - Projeto - Relatórios de Estoque
+- [ ] 34.4 - _[Projeto - Relatórios de Estoque]()
 
 ##### Bloco 35: Redes e Raspagem de Dados da Web
 
 - [ ] 35.1 - Arquitetura de redes
 - [ ] 35.2 - Redes de computadores, ferramentas e segurança
 - [ ] 35.3 - Raspagem de Dados
-- [ ] 35.4 - Projeto - Tech news
+- [ ] 35.4 - _[Projeto - Tech news]()
 
 ##### Bloco 36: Algoritmos e Estrutura de Dados
 
 - [ ] 36.1 - Complexidade de Algoritmos
 - [ ] 36.2 - Recursividade e Estratégias para solução de problemas
 - [ ] 36.3 - Algoritmos de ordenação e busca
-- [ ] 36.4 - Projeto - Algoritmos
+- [ ] 36.4 - _[Projeto - Algoritmos]()
 
 ##### Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Sets
 
@@ -275,10 +275,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 37.2 - Arrays
 - [ ] 37.3 - Hashmap e Dict
 - [ ] 37.4 - Set
-- [ ] 37.5 - Projeto - Restaurant Orders
+- [ ] 37.5 - _[Projeto - Restaurant Orders]()
 
 ##### Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas
 
 - [ ] 38.1 - Nó e Listas Encadeadas
 - [ ] 38.2 - Pilhas e Filas
-- [ ] 38.3 - Projeto - TING - Trybe Is Not Google
+- [ ] 38.3 - _[Projeto - TING - Trybe Is Not Google]()
