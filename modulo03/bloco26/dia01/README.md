@@ -3,6 +3,8 @@
 
 ### Conteúdos abordados:
 
+<details>
+
 * Introdução (O que é TypeScript?)
 * Tipagem (dicas de tipo)
 * Diferença entre Compilador e Transpilador
@@ -13,9 +15,14 @@
 * Enum ou enumeração
 * Primeiro programa em TypeScript
 
+</details>
+
 --------------------------
 
 ### Tipagem (dicas de tipo):
+
+<details>
+
 * **TypeScript é uma linguagem fortemente tipada e estaticamente tipada que possui inferência de tipo.**
 * **Tipagem Estática:**
   * Não permite que a pessoa desenvolvedora altere o tipo após ele ser declarado;
@@ -37,9 +44,14 @@
 * **Inferência de tipo:**
   * Algumas linguagens com tipagem estática podem fazer a inferência de tipo na declaração de variáveis, mas sem permitir que o tipo seja alterado após a declaração.
 
+</details>
+
 --------------------------
 
 ### Diferença entre Compilador e Transpilador
+
+<details>
+
 * **Compilador:**
   * Programa que traduz o código desenvolvido usando uma linguagem de mais alto nível (mais próxima dos seres humanos) em um código de um programa equivalente de uma linguagem de mais baixo nível (mais próxima do processador).
 
@@ -53,9 +65,14 @@
 
 </details>
 
+</details>
+
 --------------------------
 
 ### TSC (TypeScript Compiler):
+
+<details>
+
 * Compilador do Typescript;
 * *Traduz* o Typescript para Javascript;
 * Responsável por realizar a verificação de tipo no código TypeScript;
@@ -74,9 +91,14 @@
 
     * Caso haja erro, o compilador apontará uma mensagem de erro no terminal e o arquivo `.js` não será gerado.
 
+</details>
+
 --------------------------
 
 ### Introdução ao TSConfig:
+
+<details>
+
 * Arquivo de configuração Typescript: `tsconfig.json`;
   * Possui variáveis de configuração que definirão como o código será compilado;
   * Deve ser instalado como uma *DevDependency* no projeto (`npm i -D typescript`) e utilizá-lo através do `npx`:
@@ -101,9 +123,14 @@
   * *Com node, é possível utilizar a partir da versão 12.*
   * *Por exemplo, se estivermos desenvolvendo um projeto que usará a versão 16 do Node, podemos utilizar o módulo base @tsconfig/node16:* `npm i -D @tsconfig/node16`;
 
+</details>
+
 --------------------------
 
 ### Tipos e Subtipos:
+
+<details>
+
 * Em TypeScript, todos os tipos são subtipos de um tipo principal chamado `any`, e este é um tipo que pode representar qualquer valor em JavaScript.
 * Os demais tipos são os tipos `primitivos`, tipos de `objeto` ou `parâmetros de tipo`.
 
@@ -159,9 +186,14 @@
     let message = "Hello World!"; // o compilador irá inferir o tipo string
     ~~~
 
+</details>
+
 --------------------------
 
 ### Enum ou enumeração:
+
+<details>
+
 * `enum` é um nome simbólico para um conjunto de valores relacionados;
 * Utilizado para criar um conjunto de constantes para uso com variáveis e propriedades, úteis quando temos um conjunto de valores que determinado tipo de variável pode assumir.
 * Exemplo:
@@ -180,3 +212,5 @@
     let newStudentStatus: StudentStatus = StudentStatus.Inactive; // referenciamos um enum usando EnumName.Value
     console.log(newStudentStatus); //saída: 1
     ~~~
+
+</details>
