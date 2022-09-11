@@ -212,32 +212,26 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 29: Introdução ao MongoDB
 
-- [ ] 29.1 - MongoDB - Introdução
-- [ ] 29.2 - Filter Operators
-- [ ] 29.3 - _[Projeto - Data Flights]()
+- [X] 29.1 - MongoDB - Introdução
+- [X] 29.2 - Filter Operators
+- [X] 29.3 - Operadores de consulta
+- [X] 29.4 - Updates Complexos - Arrays
+- [X] 29.5 - _[Projeto - Commerce](./modulo03/bloco29/projeto/)
 
-##### Bloco 30: MongoDB: Updates Simples e Complexos
+##### Bloco 30: MasterClass - VPS, CI/CD
 
-- [ ] 30.1 - Updates Simples
-- [ ] 30.2 - Updates Complexos - Arrays - Parte 1
-- [ ] 30.3 - Updates Complexos - Arrays - Parte 2
-- [ ] 30.4 - _[Projeto - Commerce]()
+- [ ] 30.1 - Mongoose e arquitetura MSC (camada Model)
+- [ ] 30.2 - Mongoose e arquitetura MSC (camadas Service e Controller)
+- [ ] 30.3 - _[Projeto - Car Shop]()
 
-##### Bloco 31: MasterClass - VPS, CI/CD
+##### Bloco 31: Projeto - App de Delivery
 
-- [ ] 31.1 - Dia 1
-- [ ] 31.2 - Dia 2
+- [ ] 31.1 - _[Projeto - App de Delivery]()
 
-##### Bloco 32: Projeto - App de Delivery
+##### Bloco 32: MasterClass - VPS, CI/CD
 
-- [ ] 32.1 - _[Projeto - App de Delivery]()
-
-##### Bloco 22: Normalização e Modelagem de Banco de Dados
-
-- [ ] 22.1 - Transformando ideias em um modelo de banco de dados
-- [ ] 22.2 - Normalização, Formas Normais e Dumps
-- [ ] 22.3 - Transformando ideias em um modelo de banco de dados - Parte 2
-- [ ] 22.4 - _[Projeto - One For All]()
+- [ ] 32.1 - VPS
+- [ ] 32.2 - Dia 02
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
