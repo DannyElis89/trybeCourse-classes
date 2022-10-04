@@ -1,0 +1,18 @@
+.pageOrder {
+  align-items: center;
+  border: 10px solid green;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 100px auto;
+  width: 90%;
+}
+
+/* .divcardsOrder {
+  align-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 2px;
+  width: 100%;
+} */

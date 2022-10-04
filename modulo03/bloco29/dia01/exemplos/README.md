@@ -101,3 +101,26 @@
     * `$lte`: Corresponde a valores menores ou iguais a um valor especificado.
     * `$ne`: corresponde a todos os valores que não são iguais a um valor especificado.
     * `$nin`: não corresponde a nenhum dos valores especificados em um array.
+
+
+-----------
+
+### Exemplos:
+
+1. Agora, crie um documento na coleção products, no banco de dados `sample`, com os seguintes atributos e valores:
+  ~~~json
+  {
+      "productName": "Caixa",
+      "price": 20
+  }
+  ~~~
+
+2. Insira mais três documentos na coleção `products` em uma única operação:
+  ~~~json
+  [
+    { "productName": "Lapis", "stock": 10, "price": 20,"status":"A"},
+    { "productName": "Tesoura", "price": 5, "status": "B" },
+    { "productName": "Borracha", "price": 15, "status": "A" }
+  ]
+  ~~~
+

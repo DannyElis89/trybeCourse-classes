@@ -218,15 +218,15 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 29.4 - Updates Complexos - Arrays
 - [X] 29.5 - _[Projeto - Commerce](./modulo03/bloco29/projeto/)
 
-##### Bloco 30: MasterClass - VPS, CI/CD
+##### Bloco 30: Projeto - App de Delivery
+
+- [X] 31.1 - _[Projeto - App de Delivery](./modulo03/bloco30/)
+
+##### Bloco 31: MasterClass - VPS, CI/CD
 
 - [ ] 30.1 - Mongoose e arquitetura MSC (camada Model)
 - [ ] 30.2 - Mongoose e arquitetura MSC (camadas Service e Controller)
 - [ ] 30.3 - _[Projeto - Car Shop]()
-
-##### Bloco 31: Projeto - App de Delivery
-
-- [ ] 31.1 - _[Projeto - App de Delivery]()
 
 ##### Bloco 32: MasterClass - VPS, CI/CD
 

@@ -1,0 +1,30 @@
+.div-Products {
+  align-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.ver-carrinho {
+  align-content: center;
+  background-color: #036b52;
+  border: 1px solid black;
+  border-radius: 10px;
+  bottom: 10px;
+  color: white;
+  position: fixed;
+  right: 10px;
+  text-align: center;
+  width: 250px;
+}
+
+.ver-carrinho:hover {
+  background-color: #018b6b;
+}
+
+.valor-carrinho {
+  font-size: 20px;
+}
