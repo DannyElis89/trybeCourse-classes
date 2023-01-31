@@ -135,7 +135,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 18.1 - _[Projeto - App de Receitas](./modulo02/bloco18/)_
 
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## Desenvolvimento Back-end :white_check_mark:
 
 ##### Bloco 19: Docker: Utilizando Containers
 
@@ -224,55 +224,49 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 31: MasterClass - VPS, CI/CD
 
-- [ ] 30.1 - Mongoose e arquitetura MSC (camada Model)
-- [ ] 30.2 - Mongoose e arquitetura MSC (camadas Service e Controller)
-- [ ] 30.3 - _[Projeto - Car Shop]()
-
-##### Bloco 32: MasterClass - VPS, CI/CD
-
-- [ ] 32.1 - VPS
-- [ ] 32.2 - Dia 02
+- [X] 31.1 - VPS
+- [X] 31.2 - Dia 02
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
-##### Bloco 33: Introdução à Python
+##### Bloco 32: Introdução à Python
 
-- [ ] 33.1 - Aprendendo Python
-- [ ] 33.2 - Entrada e Saída de dados
-- [ ] 33.3 - Testes
-- [ ] 33.4 - _[Projeto - Job Insights]()
+- [ ] 32.1 - Aprendendo Python
+- [ ] 32.2 - Entrada e Saída de dados
+- [ ] 32.3 - Testes
+- [ ] 32.4 - _[Projeto - Job Insights]()
 
-##### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto
+##### Bloco 33: Programação Orientada a Objetos e Padrões de Projeto
 
-- [ ] 34.1 - Introdução à programação orientada a objetos
-- [ ] 34.2 - Herança, Composição e Interfaces
-- [ ] 34.3 - Padrões de projeto
-- [ ] 34.4 - _[Projeto - Relatórios de Estoque]()
+- [ ] 33.1 - Introdução à programação orientada a objetos
+- [ ] 33.2 - Herança, Composição e Interfaces
+- [ ] 33.3 - Padrões de projeto
+- [ ] 33.4 - _[Projeto - Relatórios de Estoque]()
 
-##### Bloco 35: Redes e Raspagem de Dados da Web
+##### Bloco 34: Redes e Raspagem de Dados da Web
 
-- [ ] 35.1 - Arquitetura de redes
-- [ ] 35.2 - Redes de computadores, ferramentas e segurança
-- [ ] 35.3 - Raspagem de Dados
-- [ ] 35.4 - _[Projeto - Tech news]()
+- [ ] 34.1 - Arquitetura de redes
+- [ ] 34.2 - Redes de computadores, ferramentas e segurança
+- [ ] 34.3 - Raspagem de Dados
+- [ ] 34.4 - _[Projeto - Tech news]()
 
-##### Bloco 36: Algoritmos e Estrutura de Dados
+##### Bloco 35: Algoritmos e Estrutura de Dados
 
-- [ ] 36.1 - Complexidade de Algoritmos
-- [ ] 36.2 - Recursividade e Estratégias para solução de problemas
-- [ ] 36.3 - Algoritmos de ordenação e busca
-- [ ] 36.4 - _[Projeto - Algoritmos]()
+- [ ] 35.1 - Complexidade de Algoritmos
+- [ ] 35.2 - Recursividade e Estratégias para solução de problemas
+- [ ] 35.3 - Algoritmos de ordenação e busca
+- [ ] 35.4 - _[Projeto - Algoritmos]()
 
-##### Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Sets
+##### Bloco 36: Estrutura de Dados I: Arrays, Hashmaps e Sets
 
-- [ ] 37.1 - Arquitetura de Computadores
-- [ ] 37.2 - Arrays
-- [ ] 37.3 - Hashmap e Dict
-- [ ] 37.4 - Set
-- [ ] 37.5 - _[Projeto - Restaurant Orders]()
+- [ ] 36.1 - Arquitetura de Computadores
+- [ ] 36.2 - Arrays
+- [ ] 36.3 - Hashmap e Dict
+- [ ] 36.4 - Set
+- [ ] 36.5 - _[Projeto - Restaurant Orders]()
 
-##### Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas
+##### Bloco 37: Estrutura de Dados II: Listas, Filas e Pilhas
 
-- [ ] 38.1 - Nó e Listas Encadeadas
-- [ ] 38.2 - Pilhas e Filas
-- [ ] 38.3 - _[Projeto - TING - Trybe Is Not Google]()
+- [ ] 37.1 - Nó e Listas Encadeadas
+- [ ] 37.2 - Pilhas e Filas
+- [ ] 37.3 - _[Projeto - TING - Trybe Is Not Google]()
