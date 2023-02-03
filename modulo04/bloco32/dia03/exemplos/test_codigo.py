@@ -15,3 +15,14 @@ def test_is_odd_when_number_is_even_returns_false():
 def test_divide_when_other_number_is_zero_raises_an_exception():
     with pytest.raises(ZeroDivisionError, match='Division by zero'):
         divide(2, 0)
+
+
+@pytest.fixture
+def orders():
+    """Nosso cenário (contexto) temos os seguintes pedidos"""
+    return [
+        {"customer": "maria", "order": "pizza", "day": "terça-feira"},
+        {"customer": "joao", "order": "hamburger", "day": "terça-feira"},
+        {"customer": "maria", "order": "pizza", "day": "quarta-feira"},
+        {"customer": "maria", "order": "hamburger", "day": "quinta-feira"},
+    ]
