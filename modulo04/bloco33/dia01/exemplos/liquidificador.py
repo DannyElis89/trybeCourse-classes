@@ -20,7 +20,7 @@ class Liquidificador:
         self.__cor = nova_cor
 
     def __init__(self, cor, potencia, tensao, preco):
-        self.set_cor(cor)
+        self.cor = cor
         self.preco = preco
         self.cor = cor
         self._potencia = potencia
@@ -49,17 +49,30 @@ class Liquidificador:
     def esta_ligado(self):
         return self.__ligado
 
+
 meu_liquidificador = Liquidificador("Azul", 200, 127, 200)
-seu_liquidificador = Liquidificador(cor="Vermelho", potencia=250, tensao=220, preco=100)
+seu_liquidificador = Liquidificador(
+    cor="Vermelho",
+    potencia=250,
+    tensao=220,
+    preco=100
+)
 
 liquidificador_vermelho = Liquidificador("Vermelho", 250, 220, 100)
 liquidificador_vermelho.ligar(1)
-    print("Está ligado?", liquidificador_vermelho.esta_ligado())
+print("Está ligado?", liquidificador_vermelho.esta_ligado())
+
 liquidificador_vermelho.desligar()
-    print("Está ligado?", liquidificador_vermelho.esta_ligado())
+print("Está ligado?", liquidificador_vermelho.esta_ligado())
 
 # liquidificador = Liquidificador("Azul", "110", "127", "200")
 # print(f"A cor atual é {liquidificador.get_cor()}")
 
 # liquidificador.set_cor("Preto")
 # print(f"Após pintarmos, a nova cor é {liquidificador.get_cor()}")
+
+liquidificador = Liquidificador("Rosa", "110", "127", "200")
+
+print(liquidificador.cor)  # ROSA
+liquidificador.cor = "Vermelho"
+print(liquidificador.cor)  # VERMELHO
