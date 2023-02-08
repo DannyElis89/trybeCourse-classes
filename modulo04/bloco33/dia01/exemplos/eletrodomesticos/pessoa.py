@@ -1,5 +1,5 @@
 from liquidificador import liquidificador_vermelho
-from ventilador import ventilador_branco
+from exemplos.eletrodomesticos.ventilador import ventilador_branco
 
 
 class Pessoa:

@@ -1,0 +1,3 @@
+class ABC:
+    def abstractmethod(self, query):
+        ...

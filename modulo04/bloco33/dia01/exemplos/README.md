@@ -8,3 +8,5 @@
 1. Em seguida faça com que a pessoa tenha um ventilador como atributo através da composição.
 1. Crie também um método `comprar_ventilador`.
 Faça com que o `print (__str__)` de Pessoa informe se sua instância possui ou não um ventilador.
+
+**Exercício de fixação 2:** Implemente as classes `Secador`, `Batedeira` e `MaquinaDeLavar`, sempre herdando da classe `Eletrodomestico`. Para testar, instancie as novas classes e realize alguns prints, como por exemplo, divulgando o preço do Eletrodoméstico.
