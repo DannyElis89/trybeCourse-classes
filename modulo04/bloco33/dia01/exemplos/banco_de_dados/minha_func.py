@@ -2,6 +2,7 @@ from database import Database, MongoDatabase, MySQLDatabase
 
 
 def minha_func(database):
+    #  database.execute("query qualquer")
     if isinstance(database, Database):
         database.execute("query qualquer")
     else:
