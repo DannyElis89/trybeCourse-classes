@@ -238,10 +238,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 33: Programação Orientada a Objetos e Padrões de Projeto
 
-- [ ] 33.1 - Introdução à programação orientada a objetos
-- [ ] 33.2 - Herança, Composição e Interfaces
-- [ ] 33.3 - Padrões de projeto
-- [ ] 33.4 - _[Projeto - Relatórios de Estoque]()
+- [X] 33.1 - Introdução à programação orientada a objetos
+- [X] 33.2 - Herança, Composição e Interfaces
+- [X] 33.3 - Padrões de projeto
+- [X] 33.4 - _[Projeto - Relatórios de Estoque](./modulo04/bloco33/projeto/)
 
 ##### Bloco 34: Redes e Raspagem de Dados da Web
 
