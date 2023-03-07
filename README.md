@@ -245,17 +245,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 34: Redes e Raspagem de Dados da Web
 
-- [ ] 34.1 - Arquitetura de redes
-- [ ] 34.2 - Redes de computadores, ferramentas e segurança
-- [ ] 34.3 - Raspagem de Dados
-- [ ] 34.4 - _[Projeto - Tech news]()
+- [X] 34.1 - Arquitetura de redes
+- [X] 34.2 - Redes de computadores, ferramentas e segurança
+- [X] 34.3 - Raspagem de Dados
+- [X] 34.4 - _[Projeto - Tech news](./modulo04/bloco34/projeto/)
 
 ##### Bloco 35: Algoritmos e Estrutura de Dados
 
-- [ ] 35.1 - Complexidade de Algoritmos
-- [ ] 35.2 - Recursividade e Estratégias para solução de problemas
-- [ ] 35.3 - Algoritmos de ordenação e busca
-- [ ] 35.4 - _[Projeto - Algoritmos]()
+- [X] 35.1 - Complexidade de Algoritmos
+- [X] 35.2 - Recursividade e Estratégias para solução de problemas
+- [X] 35.3 - Algoritmos de ordenação e busca
+- [X] 35.4 - _[Projeto - Algoritmos](./modulo04/bloco35/projeto/)
 
 ##### Bloco 36: Estrutura de Dados I: Arrays, Hashmaps e Sets
 
