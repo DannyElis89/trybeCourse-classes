@@ -218,14 +218,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 29.4 - Updates Complexos - Arrays
 - [X] 29.5 - _[Projeto - Commerce](./modulo03/bloco29/projeto/)
 
-##### Bloco 30: Projeto - App de Delivery
+##### Bloco 30: Projeto - Car Shop
 
-- [X] 31.1 - _[Projeto - App de Delivery](./modulo03/bloco30/)
+- [X] 30 - _[Projeto - Car Shop](./modulo03/bloco30/)
 
-##### Bloco 31: MasterClass - VPS, CI/CD
+##### Bloco 31: Projeto - App de Delivery
 
-- [X] 31.1 - VPS
-- [X] 31.2 - Dia 02
+- [X] 31.1 - _[Projeto - App de Delivery](./modulo03/bloco31/)
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
@@ -259,14 +258,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 36: Estrutura de Dados I: Arrays, Hashmaps e Sets
 
-- [ ] 36.1 - Arquitetura de Computadores
-- [ ] 36.2 - Arrays
-- [ ] 36.3 - Hashmap e Dict
-- [ ] 36.4 - Set
-- [ ] 36.5 - _[Projeto - Restaurant Orders]()
+- [X] 36.1 - Arquitetura de Computadores
+- [X] 36.2 - Arrays
+- [X] 36.3 - Hashmap e Dict
+- [X] 36.4 - Set
+- [X] 36.5 - _[Projeto - Restaurant Orders](./modulo04/bloco36/projeto)
 
 ##### Bloco 37: Estrutura de Dados II: Listas, Filas e Pilhas
 
-- [ ] 37.1 - Nó e Listas Encadeadas
-- [ ] 37.2 - Pilhas e Filas
-- [ ] 37.3 - _[Projeto - TING - Trybe Is Not Google]()
+- [X] 37.1 - Nó e Listas Encadeadas
+- [X] 37.2 - Pilhas e Filas
+- [X] 37.3 - _[Projeto - TING - Trybe Is Not Google](./modulo04/bloco37/projeto)
