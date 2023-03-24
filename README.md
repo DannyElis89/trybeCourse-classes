@@ -226,7 +226,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 31.1 - _[Projeto - App de Delivery](./modulo03/bloco31/)
 
-## Ciência da Computação :hourglass_flowing_sand:
+## Ciência da Computação :white_check_mark:
 
 ##### Bloco 32: Introdução à Python
 
